@@ -1,0 +1,29 @@
+.navbar_bg {
+  background-color: #624a2e !important;
+  border-bottom: 1px solid #ef3f40 !important;
+}
+
+.dropdown-menu {
+  background-color: #624a2e !important;
+}
+
+.dropdown-item {
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #3b2927;
+  color: #dc7633 !important;
+}
+
+li > a {
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+}
+li > a:hover {
+  border-radius: 5px;
+  background-color: #3b2927;
+  color: #dc7633 !important;
+}
