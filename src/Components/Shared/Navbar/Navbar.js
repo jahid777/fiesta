@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../../Image/logo/logo.jpg";
 import "./Navbar.css";
 
@@ -7,30 +8,31 @@ const Navbar = () => {
     <div className="sticky-top">
       <header>
         <div className="logo">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             <img style={{ height: "50px" }} src={logo} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="navigation">
           <ul>
             <li>
-              <a href="/home">Home</a>
+              <Link to="/home">Home</Link>
             </li>
             <li className="dropdown">
-              <a class="dropbtn" href="#">
+              <Link class="dropbtn" to="/">
                 Categories <i class="bi bi-chevron-down"></i>
-              </a>
+              </Link>
               <div class="dropdown-content">
-                <a href="#">Bag</a>
-                <a href="#">Belt</a>
-                <a href="#">Wallet</a>
+                <Link to="/bag">Shoe</Link>
+                <Link to="/bag">Bag</Link>
+                <Link to="/bag">Belt</Link>
+                <Link to="/bag">Wallet</Link>
               </div>
             </li>
             <li>
-              <a href="#">About us</a>
+              <Link to="#">About us</Link>
             </li>
             <li>
-              <a href="/contact_us">Contact us</a>
+              <Link to="/contact_us">Contact us</Link>
             </li>
           </ul>
         </div>

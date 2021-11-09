@@ -1,11 +1,18 @@
-.send-msg-btn {
-  background-color: #624a2e;
-  border-radius: 5px;
-  color: white;
-  padding: 10px;
+.contactMain {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-/* @media screen and (max-width: 600px) {
-  .map-main-div {
-    padding: 40px;
-  }
-} */
+
+.ContactHr {
+  background-color: var(--blue);
+  border-top: 3px dashed #8c8b8b;
+}
+.myBtn {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 10px 50px;
+}
+
+.myBtn:hover {
+  background-color: var(--orange);
+  color: var(--black);
+}
