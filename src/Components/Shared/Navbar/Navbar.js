@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="navigation">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="/home">Home</a>
             </li>
             <li className="dropdown">
               <a class="dropbtn" href="#">
@@ -30,7 +30,7 @@ const Navbar = () => {
               <a href="#">About us</a>
             </li>
             <li>
-              <a href="#">Contact us</a>
+              <a href="/contact_us">Contact us</a>
             </li>
           </ul>
         </div>

@@ -106,7 +106,7 @@ const ContactUs = () => {
     // </div>
     // </div>
 
-    <div>
+    <div className="container-fluid">
       <div className="row">
         <div className="col-md 12">
           <div className="">
