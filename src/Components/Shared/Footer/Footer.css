@@ -5,6 +5,4 @@
     rgba(0, 0, 0, 1) 0%,
     rgba(62, 90, 168, 1) 100%
   );
-  position: relative !important;
-  bottom: 0;
 }
