@@ -4,76 +4,37 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="navbar_bg">
-      <nav className="navbar navbar-expand-lg  navbar-light  container-fluid sticky-top">
-        <div className="container-fluid">
+    <div className="sticky-top">
+      <header>
+        <div className="logo">
           <a className="navbar-brand" href="/">
             <img style={{ height: "50px" }} src={logo} alt="" />
           </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav" style={{ marginLeft: "auto" }}>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
-                  HOME
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle active"
-                  href="/"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  CATEGORIES
-                </a>
-                <ul
-                  className="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="/">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="/">
-                  ABOUT US
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link active" href="/">
-                  CONTACT US
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
-      </nav>
+        <div className="navigation">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li className="dropdown">
+              <a class="dropbtn" href="#">
+                Categories <i class="bi bi-chevron-down"></i>
+              </a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <a href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </header>
     </div>
   );
 };
