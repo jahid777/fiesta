@@ -1,10 +1,16 @@
 import React from "react";
-import Footer from "../Shared/Footer/Footer";
-import Navbar from "../Shared/Navbar/Navbar";
-import ContactUs from "./../ContactUs/ContactUs";
+import Navbar from "./../Shared/Navbar/Navbar";
+import Footer from "./../Shared/Footer/Footer";
+import Bag from "../Cetegories/Bag/Bag";
 
-const Home = ({ props }) => {
-  return <div></div>;
+const Home = () => {
+  return (
+    <div>
+      <Navbar />
+      <Bag />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
