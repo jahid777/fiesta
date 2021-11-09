@@ -1,14 +1,52 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div style={{ backgroundColor: "yellow", height: "300px" }}>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quo
-      deleniti laboriosam, quos est soluta quas vel? Mollitia animi cum quae
-      voluptatum? Praesentium, magnam recusandae perferendis voluptate incidunt
-      sit aliquam dolores dolor tempore ducimus omnis corrupti temporibus, ab
-      nesciunt non exercitationem earum eum quo suscipit. Expedita incidunt
-      cupiditate quae magnam.
+    <div>
+      <footer className="bg-dark text-center text-white myFooter">
+        {/* <!-- Grid container --> */}
+        <div className="container p-4">
+          {/* <!-- Section: Social media --> */}
+          <section className="mb-4">
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="bi bi-facebook"></i>
+            </a>
+
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="bi bi-instagram"></i>
+            </a>
+
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="bi bi-youtube"></i>
+            </a>
+          </section>
+          {/* <!-- Section: Social media --> */}
+
+          {/* <!-- Section: Links --> */}
+        </div>
+
+        {/* <!-- Copyright --> */}
+        <div className="text-center p-3">
+          © {new Date().getFullYear()} Copyright |
+          <a className="text-white m-2" href="/">
+            fiesta.com
+          </a>
+        </div>
+        {/* <!-- Copyright --> */}
+      </footer>
     </div>
   );
 };

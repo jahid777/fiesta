@@ -21,9 +21,9 @@ const Navbar = () => {
                 Categories <i class="bi bi-chevron-down"></i>
               </a>
               <div class="dropdown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="#">Bag</a>
+                <a href="#">Belt</a>
+                <a href="#">Wallet</a>
               </div>
             </li>
             <li>
