@@ -3,6 +3,7 @@
   --blue: #3e5aa8;
   --black: #231f20;
   --orange: #f37225;
+  --white: #ffffff;
 }
 
 * {
@@ -13,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lobster", cursive;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

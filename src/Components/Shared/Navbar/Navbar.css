@@ -5,7 +5,7 @@ header {
     rgba(255, 255, 255, 1) 30%,
     rgba(62, 90, 168, 1) 50%
   );
-  color: #000;
+  color: var(--black);
   display: flex;
 }
 
@@ -19,7 +19,7 @@ header li {
 }
 
 header a {
-  color: #fff;
+  color: var(--white);
   padding: 25px;
   display: inline-block;
   letter-spacing: 1px;
@@ -29,35 +29,24 @@ header a {
 }
 
 header a:hover {
-  color: #ee3a43;
-  background-color: #f1f1f1;
+  color: var(--red);
+  background-color: var(--white);
 }
 .navigation {
   margin-left: auto;
 }
 
-.dropbtn {
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
+  background-color: var(--blue);
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: var(--white);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
