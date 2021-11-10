@@ -1,12 +1,12 @@
 import React from "react";
 import Carousal from "./HomeComp/Carousal";
-import HomeComp from "./HomeComp/homeBag";
+import HomeProduct from "./HomeComp/homeProduct";
 
 const Home = () => {
   return (
     <div>
       <Carousal />
-      <HomeComp />
+      <HomeProduct />
     </div>
   );
 };
