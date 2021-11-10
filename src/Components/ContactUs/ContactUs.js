@@ -18,46 +18,46 @@ const ContactUs = () => {
           ></iframe>
         </div>
         <div className="col">
-          <div class="form-group">
-            <label for="inputName">Name</label>
+          <div className="form-group">
+            <label htmlFor="inputName">Name</label>
             <input
               type="text"
-              class="form-control mt-2"
+              className="form-control mt-2"
               id="inputName"
               placeholder="Your name"
             />
           </div>
 
-          <div class="form-group mt-4">
-            <label for="inputAddress">Address</label>
+          <div className="form-group mt-4">
+            <label htmlFor="inputAddress">Address</label>
             <input
               type="text"
-              class="form-control mt-2"
+              className="form-control mt-2"
               id="inputAddress"
               placeholder="1234 Dhaka Bangladesh"
             />
           </div>
-          <div class="form-group mt-4">
-            <label for="inputEmail">Email</label>
+          <div className="form-group mt-4">
+            <label htmlFor="inputEmail">Email</label>
             <input
               type="email"
-              class="form-control mt-2"
+              className="form-control mt-2"
               id="inputEmail"
               placeholder="abc@gmail.com"
             />
           </div>
-          <div class="form-group mt-4">
-            <label for="inputMessage">Message</label>
+          <div className="form-group mt-4">
+            <label htmlFor="inputMessage">Message</label>
             <input
               type="text"
-              class="form-control mt-2"
+              className="form-control mt-2"
               id="inputMessage"
               placeholder="Type your message here........"
             />
           </div>
 
           <div className="form-group d-flex justify-content-center">
-            <button type="submit" class="btn mt-4 myBtn">
+            <button type="submit" className="btn mt-4 myBtn">
               Send
             </button>
           </div>

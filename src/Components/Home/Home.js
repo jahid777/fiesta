@@ -1,10 +1,10 @@
 import React from "react";
-import Bag from "./../Cetegories/Bag/Bag";
+import HomeComp from "./HomeComp/homeBag";
 
 const Home = () => {
   return (
     <div>
-      <Bag />
+      <HomeComp />
     </div>
   );
 };

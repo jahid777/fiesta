@@ -15,17 +15,18 @@ const Navbar = () => {
         <div className="navigation">
           <ul>
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li className="dropdown">
-              <Link class="dropbtn" to="/">
-                Categories <i class="bi bi-chevron-down"></i>
+              <Link className="dropbtn" to="/">
+                Categories <i className="bi bi-chevron-down"></i>
               </Link>
-              <div class="dropdown-content">
-                <Link to="/bag">Shoe</Link>
+              <div className="dropdown-content">
+                <Link to="/shoe">Shoe</Link>
                 <Link to="/bag">Bag</Link>
-                <Link to="/bag">Belt</Link>
-                <Link to="/bag">Wallet</Link>
+                <Link to="/belt">Belt</Link>
+                <Link to="/wallet">Wallet</Link>
+                <Link to="/accessories">Accessories</Link>
               </div>
             </li>
             <li>
