@@ -5,36 +5,48 @@ import WomenShoeCategories from "../../Cetegories/ShoesCategories/WomenShoeCateg
 
 const Shoe = () => {
   return (
-    <div className="container-fluid">
-      <div className="m-4">
-        <ul className="nav nav-tabs" id="myTab">
-          <li className="nav-item">
-            <Link
-              to="#ladiesShoeCategories"
-              className="nav-link active"
-              data-bs-toggle="tab"
+    <div>
+      <div>
+        <img
+          style={{ height: "350px", width: "100%" }}
+          src="https://cdn.shopify.com/s/files/1/2287/9679/files/step-into-the-winter-web-banner.jpg?v=1635856659"
+          alt=""
+        />
+      </div>
+      <div className="container-fluid">
+        <div className="m-4">
+          <ul className="nav nav-tabs" id="myTab">
+            <li className="nav-item">
+              <Link
+                to="#ladiesShoeCategories"
+                className="nav-link active"
+                data-bs-toggle="tab"
+              >
+                WOMEN SHOES
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="#gentsShoeCategories"
+                className="nav-link"
+                data-bs-toggle="tab"
+              >
+                MEN SHOES
+              </Link>
+            </li>
+          </ul>
+          <div className="tab-content mt-5">
+            <div
+              className="tab-pane fade show active"
+              id="ladiesShoeCategories"
             >
-              WOMEN SHOES
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="#gentsShoeCategories"
-              className="nav-link"
-              data-bs-toggle="tab"
-            >
-              MEN SHOES
-            </Link>
-          </li>
-        </ul>
-        <div className="tab-content mt-5">
-          <div className="tab-pane fade show active" id="ladiesShoeCategories">
-            <h4 className="mt-2">Women Shoes Collection</h4>
-            <WomenShoeCategories />
-          </div>
-          <div className="tab-pane fade" id="gentsShoeCategories">
-            <h4 className="mt-2">Men Shoes Collection</h4>
-            <MenShoeCategories />
+              <h4 className="mt-2">Women Shoes Collection</h4>
+              <WomenShoeCategories />
+            </div>
+            <div className="tab-pane fade" id="gentsShoeCategories">
+              <h4 className="mt-2">Men Shoes Collection</h4>
+              <MenShoeCategories />
+            </div>
           </div>
         </div>
       </div>
