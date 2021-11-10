@@ -5,9 +5,22 @@ const ContactUs = () => {
   return (
     <div className="container my-5 py-3 contactMain">
       <div className="row">
-        <div className="col-lg-12 text-center mb-3">
-          <h3>Contact us</h3>
-          <p>238 Dewan Menshion, New Elephant Road, 4th Floor, Dhaka-1205.</p>
+        <div className="col-lg-12 text-center mb-3 contactHead">
+          <h3 className="mb-3">Contact us</h3>
+          <p>
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>
+              238 Dewan Menshion, New Elephant Road, 4th Floor, Dhaka-1205.
+            </span>
+          </p>
+          <p>
+            <span>
+              <i class="bi bi-envelope-fill"></i> info@fiestaLeather.com
+            </span>
+            <span className="ContactInfo">
+              <i class="bi bi-telephone-fill"></i> +88 0100000-0000
+            </span>
+          </p>
           <hr className="ContactHr"></hr>
         </div>
         <div className="col">
@@ -56,7 +69,7 @@ const ContactUs = () => {
             />
           </div>
 
-          <div className="form-group d-flex justify-content-center">
+          <div className="form-group">
             <button type="submit" class="btn mt-4 myBtn">
               Send
             </button>
