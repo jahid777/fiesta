@@ -4,10 +4,13 @@ import { Routes, Route, Link } from "react-router-dom";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import Bag from "./Components/AllProducts/Bag";
 import NotFound from "./Components/NotFound/NotFound";
+import Navbar from "./Components/Shared/Navbar/Navbar";
+import Footer from "./Components/Shared/Footer/Footer";
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/home"  /> */}
@@ -16,6 +19,7 @@ function App() {
         <Route path="/bag" element={<Bag />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
