@@ -1,38 +1,37 @@
+import img1 from "../Image/example pic/222222.png";
+import img2 from "../Image/example pic/333333333333333.png";
+
+import { officeBag } from "./BagData";
 export const allData = [
   {
-    id: 1,
     productCode: "7001",
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "",
+    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
   },
   {
-    id: 2,
     productCode: "7002",
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "",
+    img: "https://static-01.daraz.com.bd/p/mdc/cef16456132b3809555296b8fdc9ff15.jpg_340x340q80.jpg_.webp",
   },
   {
-    id: 3,
     productCode: "7003",
     category: "bag",
     subCategory: "gymBag",
     price: 2700,
-    img: "",
+    img: img1,
   },
   {
-    id: 4,
     productCode: "7004",
     category: "bag",
     subCategory: "gymbag",
     price: 2700,
-    img: "",
+    img: img2,
   },
   {
-    id: 5,
     productCode: "7005",
     category: "bag",
     subCategory: "womenBag",
@@ -40,7 +39,6 @@ export const allData = [
     img: "",
   },
   {
-    id: 6,
     productCode: "7006",
     category: "bag",
     subCategory: "womenBag",
@@ -48,7 +46,6 @@ export const allData = [
     img: "",
   },
   {
-    id: 7,
     productCode: "7007",
     category: "bag",
     subCategory: "laptopBag",
@@ -56,7 +53,6 @@ export const allData = [
     img: "",
   },
   {
-    id: 8,
     productCode: "7008",
     category: "bag",
     subCategory: "LaptopBag",
@@ -64,7 +60,6 @@ export const allData = [
     img: "",
   },
   {
-    id: 9,
     productCode: "7009",
     category: "shoe",
     subCategory: "menShoe",
@@ -72,7 +67,6 @@ export const allData = [
     img: "",
   },
   {
-    id: 10,
     productCode: "70010",
     category: "shoe",
     subCategory: "menShoe",
@@ -80,7 +74,6 @@ export const allData = [
     img: "",
   },
   {
-    id: 11,
     productCode: "70011",
     category: "shoe",
     subCategory: "WomenShoe",
@@ -88,7 +81,6 @@ export const allData = [
     img: "",
   },
   {
-    id: 12,
     productCode: "70012",
     category: "shoe",
     subCategory: "womenShoe",
