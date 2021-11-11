@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = (showBelow) => {
+  const [show, setShow] = useState(showBelow ? false : true);
+  const handleScroll = () => {
+    if (window.pageYOffset > showBelow) {
+      if (!show) setShow(true);
+    } else {
+      if (show) setShow(false);
+    }
+  };
+
+  const handleClick = () => {
+    window[`scrollTo`]({ top: 0, behavior: `smooth` });
+  };
+  useEffect(() => {
+    if (showBelow) {
+      window.addEventListener(`scroll`, handleScroll);
+      return () => window.removeEventListener(`scroll`, handleScroll);
+    }
+  });
   return (
     <footer className="bg-dark text-center text-white myFooter">
       <div className="container pt-3">
