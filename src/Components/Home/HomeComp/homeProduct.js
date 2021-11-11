@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-// import { allData } from "../../../AllData/AllData";
 import { shoesData } from "../../../AllData/AllData";
 import { bagsData } from "../../../AllData/AllData";
 import { beltsData } from "../../../AllData/AllData";
@@ -8,7 +7,6 @@ import { anotherBagsData } from "../../../AllData/AllData";
 import { walletsData } from "../../../AllData/AllData";
 
 const Bag = () => {
-  // const [product, setProduct] = useState(allData);
   const [shoes, setShoes] = useState(shoesData);
   const [bags, setBags] = useState(bagsData);
   const [belts, setBelts] = useState(beltsData);
