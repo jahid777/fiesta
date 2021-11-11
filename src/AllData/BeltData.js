@@ -1,5 +1,5 @@
 // this is ladies bag
-export const ladiesBelt = [
+export const womenBelt = [
   {
     id: 1,
     ProductCode: "BBG-7030",
@@ -21,7 +21,7 @@ export const ladiesBelt = [
 ];
 
 // this is gents belt
-export const gentsBelt = [
+export const menBelt = [
   {
     id: 4,
     ProductCode: "BBG-7030",

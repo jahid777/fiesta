@@ -1,4 +1,4 @@
-export const ladiesShoes = [
+export const womenShoes = [
   {
     id: 1,
     ProductCode: "BBG-7030",
@@ -19,7 +19,7 @@ export const ladiesShoes = [
   },
 ];
 
-export const gentsShoes = [
+export const menShoes = [
   {
     id: 4,
     ProductCode: "BBG-7030",

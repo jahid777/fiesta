@@ -1,5 +1,5 @@
 // this is ladies wallet
-export const ladiesWallet = [
+export const womenWallet = [
   {
     id: 1,
     ProductCode: "BBG-7030",
@@ -21,7 +21,7 @@ export const ladiesWallet = [
 ];
 
 //   this is gents wallet
-export const gentsWallet = [
+export const menWallet = [
   {
     id: 1,
     ProductCode: "BBG-7030",
