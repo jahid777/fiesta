@@ -4,6 +4,7 @@ import GymBag from "./../../Cetegories/BagCategories/GymBag";
 import OfficeBag from "./../../Cetegories/BagCategories/OfficeBag";
 import WomenBag from "../../Cetegories/BagCategories/WomenBag";
 import LaptopBag from "../../Cetegories/BagCategories/LaptopBag";
+import "../AllProducts.css";
 
 const AllProducts = () => {
   return (

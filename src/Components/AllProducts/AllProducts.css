@@ -1,0 +1,15 @@
+#myTab {
+  border-bottom: 1px solid var(--blue);
+}
+.nav-link:link {
+  color: var(--red);
+  font-weight: bold;
+}
+
+.nav-link:active {
+  background-color: var(--blue);
+}
+.nav-link:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
