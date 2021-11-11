@@ -33,11 +33,11 @@ const Wallet = () => {
           </ul>
           <div className="tab-content mt-5">
             <div className="tab-pane fade show active" id="womenWallet">
-              <h4 className="mt-2">Women Wallet Collection</h4>
+              {/* <h4 className="mt-2">Women Wallet Collection</h4> */}
               <WomenWalletCategories />
             </div>
             <div className="tab-pane fade" id="menWallet">
-              <h4 className="mt-2">Men Wallet Collection</h4>
+              {/* <h4 className="mt-2">Men Wallet Collection</h4> */}
               <MenWalletCategories />
             </div>
           </div>
