@@ -5,9 +5,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="bg-dark text-center text-white myFooter">
-      {/* <!-- Grid container --> */}
-      <div className="container p-4">
-        {/* <!-- Section: Social media --> */}
+      <div className="container pt-3">
         <section className="mb-4">
           <a
             className="btn btn-outline-light btn-floating m-1"
@@ -33,24 +31,22 @@ const Footer = () => {
             <i className="bi bi-youtube"></i>
           </a>
         </section>
-        {/* <!-- Section: Social media --> */}
-
-        {/* <!-- Section: Links --> */}
       </div>
 
       <div className="text-center">
         <span>
-          <Link to="/">Terms & Conditions</Link>
+          <Link to="/" className="footerLink">
+            Terms & Conditions
+          </Link>
         </span>
       </div>
-      {/* <!-- Copyright --> */}
+
       <div className="text-center p-3">
         © {new Date().getFullYear()} Copyright |
-        <a className="text-white m-2" href="/">
-          fiesta.com
-        </a>
+        <span className="text-white m-2 footerLink" to="/">
+          FIESTA LIFE STYLE
+        </span>
       </div>
-      {/* <!-- Copyright --> */}
     </footer>
   );
 };

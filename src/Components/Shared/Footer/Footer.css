@@ -6,3 +6,11 @@
     rgba(62, 90, 168, 1) 100%
   );
 }
+
+.footerLink {
+  color: #fff;
+  text-decoration: none;
+}
+.footerLink:hover {
+  color: var(--red);
+}

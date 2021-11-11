@@ -47,7 +47,7 @@ const ContactUs = () => {
               type="text"
               className="form-control mt-2"
               id="inputAddress"
-              placeholder="1234 Dhaka Bangladesh"
+              placeholder="Your address"
             />
           </div>
           <div className="form-group mt-4">
@@ -56,16 +56,16 @@ const ContactUs = () => {
               type="email"
               className="form-control mt-2"
               id="inputEmail"
-              placeholder="abc@gmail.com"
+              placeholder="Your email"
             />
           </div>
           <div className="form-group mt-4">
             <label htmlFor="inputMessage">Message</label>
-            <input
+            <textarea
               type="text"
               className="form-control mt-2"
               id="inputMessage"
-              placeholder="Type your message here........"
+              placeholder="Type your message........"
             />
           </div>
 
