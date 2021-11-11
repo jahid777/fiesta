@@ -26,12 +26,13 @@ const Bag = () => {
       {/* this is for shoes */}
       <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-2">
         {shoes.map((singleShoes) => (
-          <div className="col" data-aos="fade-up">
+          <div className="col">
             <div className="card h-100">
               <img
                 src={singleShoes?.img}
                 className="card-img-top img-fluid"
                 alt="..."
+                data-aos="fade-up"
               />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -51,12 +52,13 @@ const Bag = () => {
       {/* this is for bag */}
       <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-5">
         {bags.map((singleBag) => (
-          <div className="col" data-aos="fade-up">
+          <div className="col">
             <div className="card h-100">
               <img
                 src={singleBag?.img}
                 className="card-img-top img-fluid"
                 alt="..."
+                data-aos="fade-up"
               />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -76,12 +78,13 @@ const Bag = () => {
       {/* this is for belt */}
       <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-5">
         {belts.map((singleBelt) => (
-          <div className="col" data-aos="fade-up">
+          <div className="col">
             <div className="card h-100">
               <img
                 src={singleBelt?.img}
                 className="card-img-top img-fluid"
                 alt="..."
+                data-aos="fade-up"
               />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -101,12 +104,13 @@ const Bag = () => {
       {/* another product(laptop, office) */}
       <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-5">
         {anotherBagData.map((singleBag) => (
-          <div className="col" data-aos="fade-up">
+          <div className="col">
             <div className="card h-100">
               <img
                 src={singleBag?.img}
                 className="card-img-top img-fluid"
                 alt="..."
+                data-aos="fade-up"
               />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
@@ -127,12 +131,13 @@ const Bag = () => {
       {/* this is for wallet */}
       <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-5">
         {wallets.map((singleWallet) => (
-          <div className="col" data-aos="fade-up">
+          <div className="col">
             <div className="card h-100">
               <img
                 src={singleWallet?.img}
                 className="card-img-top img-fluid"
                 alt="..."
+                data-aos="fade-up"
               />
               <div className="card-body">
                 <h5 className="card-title">Card title</h5>
