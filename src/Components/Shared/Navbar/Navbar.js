@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../Image/logo/logo.jpg";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [show, setShow] = useState(false);
+  console.log(show, "here");
   return (
     <div className="sticky-top">
       <header>
@@ -12,7 +14,8 @@ const Navbar = () => {
             <img style={{ height: "50px" }} src={logo} alt="" />
           </Link>
         </div>
-        <div className="navigation">
+
+        <div className="navigation" id="navbarNav">
           <ul>
             <li>
               <Link to="/">Home</Link>

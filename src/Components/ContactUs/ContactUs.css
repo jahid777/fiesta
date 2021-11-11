@@ -19,6 +19,7 @@
 }
 
 .myBtn:hover {
-  background-color: var(--orange);
-  color: var(--black);
+  /* background-color: #b8860b; */
+  background-color: var(--red);
+  color: var(--white);
 }
