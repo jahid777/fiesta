@@ -55,3 +55,42 @@ header a:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+@media only screen and (max-width: 900px) {
+  #pcNavbar {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #MobileNavbar {
+    display: none;
+  }
+}
+
+/* Mobile Navbar */
+#MobileNavbar {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(62, 90, 168, 1) 50%
+  );
+}
+.navbar-toggler {
+  border: none;
+}
+.mobileHam {
+  color: var(--white);
+  font-size: 30px !important;
+}
+.mobileNavLink {
+  color: var(--black);
+}
+.mobileMenu:hover {
+  color: var(--white) !important;
+}
+.mobileDropdown:hover {
+  background-color: var(--blue) !important;
+  color: var(--white) !important;
+}
