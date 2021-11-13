@@ -1,10 +1,15 @@
 .myFooter {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   background: linear-gradient(
-    120deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(62, 90, 168, 1) 100%
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(187, 157, 37, 1) 11%,
+    rgba(81, 54, 26, 1) 35%,
+    rgba(92, 64, 27, 1) 65%,
+    rgba(201, 169, 38, 1) 89%,
+    rgba(255, 255, 255, 1) 100%
   );
+  border-top: 1px solid var(--blue);
 }
 
 .footerLink {

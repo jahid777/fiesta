@@ -33,7 +33,7 @@ const Bag = () => {
             <h3>Shoe Items</h3>
           </div>
           <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
+            <Link to="/shoe" class="btn">
               View All
             </Link>
           </div>
@@ -74,7 +74,7 @@ const Bag = () => {
             <h3>Bag Items</h3>
           </div>
           <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
+            <Link to="/bag" class="btn">
               View All
             </Link>
           </div>
@@ -114,7 +114,7 @@ const Bag = () => {
             <h3>Belt Items</h3>
           </div>
           <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
+            <Link to="/belt" class="btn">
               View All
             </Link>
           </div>
@@ -148,6 +148,48 @@ const Bag = () => {
             </div>
           ))}
         </div>
+
+        {/* this is for wallet */}
+        <div class="d-flex bd-highlight homeProductHead mt-5">
+          <div class="me-auto bd-highlight">
+            <h3>Wallet Items</h3>
+          </div>
+          <div class="bd-highlight Viewall">
+            <Link to="/wallet" class="btn">
+              View All
+            </Link>
+          </div>
+        </div>
+        <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
+          {wallets.map((singleWallet) => (
+            <div className="col">
+              <div
+                className="card h-100"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <img
+                  src={singleWallet?.img}
+                  className="card-img-top img-fluid"
+                  alt="..."
+                  data-aos="fade-up"
+                />
+                <div className="card-body">
+                  <h5 className="card-title">Card title</h5>
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <small className="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
         {/* another product(laptop, office) */}
         <div class="d-flex bd-highlight homeProductHead mt-5">
           <div class="me-auto bd-highlight">
@@ -169,47 +211,6 @@ const Bag = () => {
               >
                 <img
                   src={singleBag?.img}
-                  className="card-img-top img-fluid"
-                  alt="..."
-                  data-aos="fade-up"
-                />
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                </div>
-                <div className="card-footer">
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        {/* this is for wallet */}
-        <div class="d-flex bd-highlight homeProductHead mt-5">
-          <div class="me-auto bd-highlight">
-            <h3>Wallet Items</h3>
-          </div>
-          <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
-              View All
-            </Link>
-          </div>
-        </div>
-        <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
-          {wallets.map((singleWallet) => (
-            <div className="col">
-              <div
-                className="card h-100"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                <img
-                  src={singleWallet?.img}
                   className="card-img-top img-fluid"
                   alt="..."
                   data-aos="fade-up"
