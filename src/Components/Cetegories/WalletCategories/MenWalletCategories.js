@@ -11,7 +11,7 @@ const MenWalletCategories = () => {
       <MenPopModal />
       <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
         {menWallets.map((singleMenWallet) => (
-          <div className="col">
+          <div key={singleMenWallet.id} className="col">
             <div
               className="card h-100"
               data-bs-toggle="modal"

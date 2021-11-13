@@ -8,17 +8,17 @@ const ContactUs = () => {
         <div className="col-lg-12 text-center mb-3 contactHead">
           <h3 className="mb-3">Contact us</h3>
           <p>
-            <i class="bi bi-geo-alt-fill"></i>
+            <i className="bi bi-geo-alt-fill"></i>
             <span>
               238 Dewan Menshion, New Elephant Road, 4th Floor, Dhaka-1205.
             </span>
           </p>
           <p>
             <span>
-              <i class="bi bi-envelope-fill"></i> info@fiestaLeather.com
+              <i className="bi bi-envelope-fill"></i> info@fiestaLeather.com
             </span>
             <span className="ContactInfo">
-              <i class="bi bi-telephone-fill"></i> +88 0100000-0000
+              <i className="bi bi-telephone-fill"></i> +88 0100000-0000
             </span>
           </p>
           <hr className="ContactHr"></hr>
@@ -70,7 +70,7 @@ const ContactUs = () => {
           </div>
 
           <div className="form-group">
-            <button type="submit" class="btn mt-4 myBtn">
+            <button type="submit" className="btn mt-4 myBtn">
               Send
             </button>
           </div>

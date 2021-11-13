@@ -10,7 +10,7 @@ const MenShoeCategories = () => {
       <MenPopModal />
       <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
         {menShoes.map((singleMensShoe) => (
-          <div className="col">
+          <div key={singleMensShoe.id} className="col">
             <div
               className="card h-100"
               data-bs-toggle="modal"

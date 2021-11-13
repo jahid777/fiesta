@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../Image/logo/logo.jpg";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
-  console.log(show, "here");
   return (
     <div className="sticky-top" id="pcNavbar">
       <header>

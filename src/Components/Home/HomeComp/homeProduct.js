@@ -28,12 +28,12 @@ const Bag = () => {
       <PopupModal />
       <div className="container-fluid mt-5 mb-5 px-5">
         {/* this is for shoes */}
-        <div class="d-flex bd-highlight homeProductHead">
-          <div class="me-auto bd-highlight">
+        <div className="d-flex bd-highlight homeProductHead">
+          <div className="me-auto bd-highlight">
             <h3>Shoe Items</h3>
           </div>
-          <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
+          <div className="bd-highlight Viewall">
+            <Link to="/" className="btn">
               View All
             </Link>
           </div>
@@ -41,7 +41,7 @@ const Bag = () => {
 
         <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
           {shoes.map((singleShoes) => (
-            <div className="col">
+            <div key={singleShoes.id} className="col">
               <div
                 className="card h-100"
                 data-bs-toggle="modal"
@@ -69,19 +69,19 @@ const Bag = () => {
           ))}
         </div>
         {/* this is for bag */}
-        <div class="d-flex bd-highlight homeProductHead mt-5">
-          <div class="me-auto bd-highlight">
+        <div className="d-flex bd-highlight homeProductHead mt-5">
+          <div className="me-auto bd-highlight">
             <h3>Bag Items</h3>
           </div>
-          <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
+          <div className="bd-highlight Viewall">
+            <Link to="/" className="btn">
               View All
             </Link>
           </div>
         </div>
         <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
           {bags.map((singleBag) => (
-            <div className="col">
+            <div key={singleBag.id} className="col">
               <div
                 className="card h-100"
                 data-bs-toggle="modal"
@@ -109,19 +109,19 @@ const Bag = () => {
           ))}
         </div>
         {/* this is for belt */}
-        <div class="d-flex bd-highlight homeProductHead mt-5">
-          <div class="me-auto bd-highlight">
+        <div className="d-flex bd-highlight homeProductHead mt-5">
+          <div className="me-auto bd-highlight">
             <h3>Belt Items</h3>
           </div>
-          <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
+          <div className="bd-highlight Viewall">
+            <Link to="/" className="btn">
               View All
             </Link>
           </div>
         </div>
         <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
           {belts.map((singleBelt) => (
-            <div className="col">
+            <div key={singleBelt.id} className="col">
               <div
                 className="card h-100"
                 data-bs-toggle="modal"
@@ -149,12 +149,12 @@ const Bag = () => {
           ))}
         </div>
         {/* another product(laptop, office) */}
-        <div class="d-flex bd-highlight homeProductHead mt-5">
-          <div class="me-auto bd-highlight">
+        <div className="d-flex bd-highlight homeProductHead mt-5">
+          <div className="me-auto bd-highlight">
             <h3>Others Items</h3>
           </div>
-          <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
+          <div className="bd-highlight Viewall">
+            <Link to="/" className="btn">
               View All
             </Link>
           </div>
@@ -190,19 +190,19 @@ const Bag = () => {
         </div>
 
         {/* this is for wallet */}
-        <div class="d-flex bd-highlight homeProductHead mt-5">
-          <div class="me-auto bd-highlight">
+        <div className="d-flex bd-highlight homeProductHead mt-5">
+          <div className="me-auto bd-highlight">
             <h3>Wallet Items</h3>
           </div>
-          <div class="bd-highlight Viewall">
-            <Link to="/" class="btn">
+          <div className="bd-highlight Viewall">
+            <Link to="/" className="btn">
               View All
             </Link>
           </div>
         </div>
         <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
           {wallets.map((singleWallet) => (
-            <div className="col">
+            <div key={singleWallet.id} className="col">
               <div
                 className="card h-100"
                 data-bs-toggle="modal"

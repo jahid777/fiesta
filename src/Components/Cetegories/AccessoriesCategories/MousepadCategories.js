@@ -9,7 +9,7 @@ const MousepadCategories = () => {
       <PopupModal />
       <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
         {mousepads.map((singleMousepad) => (
-          <div className="col">
+          <div key={singleMousepad.id} className="col">
             <div
               className="card h-100"
               data-bs-toggle="modal"

@@ -9,7 +9,7 @@ const OfficeBag = () => {
       <OfficeBagPopup />
       <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
         {officeBags.map((singleOfficeBag) => (
-          <div className="col">
+          <div key={singleOfficeBag.id} className="col">
             <div
               className="card h-100"
               data-bs-toggle="modal"

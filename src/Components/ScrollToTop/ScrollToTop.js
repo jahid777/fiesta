@@ -24,7 +24,7 @@ const ScrollToTop = () => {
     <div>
       {showButton && (
         <button onClick={scrollToTop} className="back-to-top">
-          <i class="bi bi-arrow-up"></i>
+          <i className="bi bi-arrow-up"></i>
         </button>
       )}
     </div>

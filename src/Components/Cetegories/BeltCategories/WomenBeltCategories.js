@@ -9,7 +9,7 @@ const WomenBeltCategories = () => {
       <PopupModal />
       <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
         {womensBelt.map((singleWomensBelt) => (
-          <div className="col">
+          <div key={singleWomensBelt.id} className="col">
             <div
               className="card h-100"
               data-bs-toggle="modal"
