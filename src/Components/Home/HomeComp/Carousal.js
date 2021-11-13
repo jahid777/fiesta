@@ -33,21 +33,21 @@ const Bag = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://icms-image.slatic.net/images/ims-web/f396394f-ebda-4ead-bdf3-2c0d68d052d6.jpg_1200x1200.jpg"
+            src="https://i.imgur.com/DyI4mbV.png"
             className="d-block w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://icms-image.slatic.net/images/ims-web/4cb02074-2203-439c-b4ec-1128ac87a90f.jpg"
+            src="https://i.imgur.com/sCR2pu0.png"
             className="d-block w-100"
             alt="..."
           />
         </div>
         <div className="carousel-item">
           <img
-            src="https://icms-image.slatic.net/images/ims-web/046bd152-b3a7-4341-b69d-6b38c5020791.jpg"
+            src="https://i.imgur.com/C8xPX7S.jpg"
             className="d-block w-100"
             alt="..."
           />
