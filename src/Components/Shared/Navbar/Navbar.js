@@ -7,7 +7,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
   console.log(show, "here");
   return (
-    <div className="sticky-top">
+    <div className="sticky-top" id="pcNavbar">
       <header>
         <div className="logo">
           <Link className="navbar-brand" to="/">

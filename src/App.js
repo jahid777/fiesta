@@ -10,11 +10,13 @@ import Shoe from "./Components/AllProducts/Shoe/Shoe";
 import Belt from "./Components/AllProducts/Belt/Belt";
 import Wallet from "./Components/AllProducts/Wallet/Wallet";
 import Accessories from "./Components/AllProducts/Accessories/Accessories";
+import MobileNavbar from "./Components/Shared/Navbar/MobileNavbar";
 
 function App() {
   return (
     <div>
       <Navbar />
+      <MobileNavbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact_us" element={<ContactUs />} />
