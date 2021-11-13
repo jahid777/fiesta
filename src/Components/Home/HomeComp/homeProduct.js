@@ -7,6 +7,7 @@ import { anotherBagsData } from "../../../AllData/AllData";
 import { walletsData } from "../../../AllData/AllData";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./HomeComp.css";
 
 const Bag = () => {
   const [shoes, setShoes] = useState(shoesData);
@@ -22,9 +23,20 @@ const Bag = () => {
   }, []);
 
   return (
-    <main className="mb-5 mt-2">
+    <main className="container-fluid mt-5 mb-5 px-5">
       {/* this is for shoes */}
-      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-2">
+      <div class="d-flex bd-highlight homeProductHead">
+        <div class="me-auto bd-highlight">
+          <h3>Shoe Items</h3>
+        </div>
+        <div class="bd-highlight Viewall">
+          <Link to="/" class="btn">
+            View All
+          </Link>
+        </div>
+      </div>
+
+      <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
         {shoes.map((singleShoes) => (
           <div className="col">
             <div className="card h-100">
@@ -50,7 +62,17 @@ const Bag = () => {
         ))}
       </div>
       {/* this is for bag */}
-      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-5">
+      <div class="d-flex bd-highlight homeProductHead mt-5">
+        <div class="me-auto bd-highlight">
+          <h3>Bag Items</h3>
+        </div>
+        <div class="bd-highlight Viewall">
+          <Link to="/" class="btn">
+            View All
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
         {bags.map((singleBag) => (
           <div className="col">
             <div className="card h-100">
@@ -76,7 +98,17 @@ const Bag = () => {
         ))}
       </div>
       {/* this is for belt */}
-      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-5">
+      <div class="d-flex bd-highlight homeProductHead mt-5">
+        <div class="me-auto bd-highlight">
+          <h3>Belt Items</h3>
+        </div>
+        <div class="bd-highlight Viewall">
+          <Link to="/" class="btn">
+            View All
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
         {belts.map((singleBelt) => (
           <div className="col">
             <div className="card h-100">
@@ -102,7 +134,17 @@ const Bag = () => {
         ))}
       </div>
       {/* another product(laptop, office) */}
-      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-5">
+      <div class="d-flex bd-highlight homeProductHead mt-5">
+        <div class="me-auto bd-highlight">
+          <h3>Others Items</h3>
+        </div>
+        <div class="bd-highlight Viewall">
+          <Link to="/" class="btn">
+            View All
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
         {anotherBagData.map((singleBag) => (
           <div className="col">
             <div className="card h-100">
@@ -129,7 +171,17 @@ const Bag = () => {
       </div>
 
       {/* this is for wallet */}
-      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid mt-5">
+      <div class="d-flex bd-highlight homeProductHead mt-5">
+        <div class="me-auto bd-highlight">
+          <h3>Wallet Items</h3>
+        </div>
+        <div class="bd-highlight Viewall">
+          <Link to="/" class="btn">
+            View All
+          </Link>
+        </div>
+      </div>
+      <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
         {wallets.map((singleWallet) => (
           <div className="col">
             <div className="card h-100">
