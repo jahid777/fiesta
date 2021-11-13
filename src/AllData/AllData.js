@@ -7,7 +7,7 @@ export const shoesData = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/tVw4jKz.jpg",
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ export const shoesData = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/34YUoRR.png",
   },
   // men shoes
   {
@@ -24,7 +24,7 @@ export const shoesData = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/F4FQhBG.png",
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ export const shoesData = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/JytZfL4.jpg",
   },
 ];
 
@@ -45,7 +45,7 @@ export const bagsData = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/jReLaip.jpg",
   },
   {
     id: 1,
@@ -53,23 +53,23 @@ export const bagsData = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/vw4Ole0.jpg",
   },
-  // men Bag
+  // office Bag
   {
     id: 3,
     productCode: "7001",
     category: "bag",
     subCategory: "officeBag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/baKnYHC.jpg",
   },
   {
     id: 4,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/0iCj7UJ.jpg",
   },
 ];
 
@@ -81,29 +81,29 @@ export const beltsData = [
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/QBKGLvq.jpg",
   },
   {
     id: 1,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/WIpFoUm.jpg",
   },
   // men Belt
   {
     id: 3,
     productCode: "7001",
-    category: "bag",
+    category: "men belt",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/XQd20k5.jpg",
   },
   {
     id: 4,
     productCode: "7001",
-    category: "bag",
+    category: "men belt",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/vI1qps5.jpg",
   },
 ];
 
@@ -115,14 +115,14 @@ export const anotherBagsData = [
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/baKnYHC.jpg",
   },
   {
     id: 1,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/0iCj7UJ.jpg",
   },
   // Laptop bag
   {
@@ -130,14 +130,14 @@ export const anotherBagsData = [
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/0BEFqXM.jpg",
   },
   {
     id: 4,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/EccmH3A.jpg",
   },
 ];
 
@@ -149,29 +149,29 @@ export const accessoriesData = [
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/oetgLkC.jpg",
   },
   {
     id: 1,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/4hERj7u.jpg",
   },
-  // Laptop pad
+  // mouse pad
   {
     id: 3,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/1ci37ad.jpg",
   },
   {
     id: 4,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/1ci37ad.jpg",
   },
 ];
 
@@ -183,14 +183,14 @@ export const walletsData = [
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/0BEFqXM.jpg",
   },
   {
     id: 1,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/EccmH3A.jpg",
   },
   // men Wallet
   {
@@ -198,14 +198,14 @@ export const walletsData = [
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/asaLuvt.jpg",
   },
   {
     id: 4,
     productCode: "7001",
     category: "bag",
     price: 2700,
-    img: "https://static-01.daraz.com.bd/original/b80aadadbaadbc1db27e692a5e6db52d.jpg",
+    img: "https://i.imgur.com/asaLuvt.jpg",
   },
 ];
 

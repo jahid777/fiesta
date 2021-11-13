@@ -10,6 +10,7 @@ import Shoe from "./Components/AllProducts/Shoe/Shoe";
 import Belt from "./Components/AllProducts/Belt/Belt";
 import Wallet from "./Components/AllProducts/Wallet/Wallet";
 import Accessories from "./Components/AllProducts/Accessories/Accessories";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
 
         <Route path="/*" element={<NotFound />} />
       </Routes>
+      <ScrollToTop />
       <Footer />
     </div>
   );
