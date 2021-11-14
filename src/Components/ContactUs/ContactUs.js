@@ -9,11 +9,11 @@ const ContactUs = () => {
           <h3 className="mb-3">Contact us</h3>
           <p>
             <i className="bi bi-geo-alt-fill"></i>
-            <span>
+            <span className="contact-text">
               238 Dewan Menshion, New Elephant Road, 4th Floor, Dhaka-1205.
             </span>
           </p>
-          <p>
+          <p className="contact-text">
             <span>
               <i className="bi bi-envelope-fill"></i> info@fiestaLeather.com
             </span>

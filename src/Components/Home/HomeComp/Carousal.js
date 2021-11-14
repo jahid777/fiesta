@@ -33,7 +33,7 @@ const Bag = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
-            src="https://i.imgur.com/DyI4mbV.png"
+            src="https://i.imgur.com/C8xPX7S.jpg"
             className="d-block w-100"
             alt="..."
           />
@@ -47,7 +47,7 @@ const Bag = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.imgur.com/C8xPX7S.jpg"
+            src="https://i.imgur.com/DyI4mbV.png"
             className="d-block w-100"
             alt="..."
           />

@@ -42,7 +42,7 @@ const WomenBagPopus = () => {
                   </div>
                 </h5>
               </div>
-              <div className="modal-footer">
+              <div className="d-flex justify-content-end">
                 <button
                   type="button"
                   className="btn btn-secondary close-btn-popup"
