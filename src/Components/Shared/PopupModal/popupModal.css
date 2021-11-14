@@ -1,0 +1,16 @@
+.popupBody {
+  background-color: var(--blue);
+  color: white !important;
+}
+.close-btn-popup {
+  margin: 10px;
+  background-color: var(--blue);
+}
+.close-btn-popup:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.close-btn-popup:hover {
+  background-color: var(--red);
+}

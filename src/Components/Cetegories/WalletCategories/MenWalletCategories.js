@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { menWallet } from "../../../AllData/Wallet";
 import MenPopModal from "../../Shared/PopupModal/MenPopModal";
-import PopupModal from "../../Shared/PopupModal/PopupModal";
 
 const MenWalletCategories = () => {
   const [menWallets, setMenWallets] = useState(menWallet);

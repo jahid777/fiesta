@@ -13,7 +13,7 @@ const WomenBagPopus = () => {
         >
           <div className="modal-dialog modal-dialog-centered">
             <div className="modal-content">
-              <div className="modal-header">
+              <div className="modal-header popupBody">
                 <h5 className="modal-title" id="exampleModalLabel">
                   CONTACT US
                 </h5>
@@ -45,7 +45,7 @@ const WomenBagPopus = () => {
               <div className="modal-footer">
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary close-btn-popup"
                   data-bs-dismiss="modal"
                 >
                   Close

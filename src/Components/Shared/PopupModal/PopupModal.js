@@ -1,4 +1,5 @@
 import React from "react";
+import "./popupModal.css";
 
 const PopupModal = () => {
   return (
@@ -12,16 +13,16 @@ const PopupModal = () => {
       >
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
-            <div className="modal-header">
+            <div className="modal-header popupBody">
               <h5 className="modal-title" id="exampleModalLabel">
                 CONTACT US
               </h5>
-              <button
+              {/* <button
                 type="button"
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-              ></button>
+              ></button> */}
             </div>
             <div className="modal-body">
               <h5>
@@ -42,7 +43,7 @@ const PopupModal = () => {
             <div className="modal-footer">
               <button
                 type="button"
-                className="btn btn-secondary"
+                className="btn btn-secondary close-btn-popup"
                 data-bs-dismiss="modal"
               >
                 Close
