@@ -33,7 +33,7 @@ const Bag = () => {
             <h3>Shoe Items</h3>
           </div>
           <div className="bd-highlight Viewall">
-            <Link to="/" className="btn">
+            <Link to="/shoe" className="btn">
               View All
             </Link>
           </div>
@@ -75,7 +75,7 @@ const Bag = () => {
             <h3>Bag Items</h3>
           </div>
           <div className="bd-highlight Viewall">
-            <Link to="/" className="btn">
+            <Link to="/bag" className="btn">
               View All
             </Link>
           </div>
@@ -115,7 +115,7 @@ const Bag = () => {
             <h3>Belt Items</h3>
           </div>
           <div className="bd-highlight Viewall">
-            <Link to="/" className="btn">
+            <Link to="/belt" className="btn">
               View All
             </Link>
           </div>
@@ -152,10 +152,10 @@ const Bag = () => {
         {/* another product(laptop, office) */}
         <div className="d-flex bd-highlight homeProductHead mt-5">
           <div className="me-auto bd-highlight">
-            <h3>Others Items</h3>
+            <h3>Wallet Items</h3>
           </div>
           <div className="bd-highlight Viewall">
-            <Link to="/" className="btn">
+            <Link to="/wallet" className="btn">
               View All
             </Link>
           </div>
@@ -193,10 +193,10 @@ const Bag = () => {
         {/* this is for wallet */}
         <div className="d-flex bd-highlight homeProductHead mt-5">
           <div className="me-auto bd-highlight">
-            <h3>Wallet Items</h3>
+            <h3>Accessories Items</h3>
           </div>
           <div className="bd-highlight Viewall">
-            <Link to="/" className="btn">
+            <Link to="/accessories" className="btn">
               View All
             </Link>
           </div>
