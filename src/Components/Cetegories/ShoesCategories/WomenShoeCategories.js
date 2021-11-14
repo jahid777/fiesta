@@ -5,13 +5,14 @@ import PopupModal from "../../Shared/PopupModal/PopupModal";
 const WomenShoeCategories = () => {
   const [womensShoe, setWomenShoe] = useState(womenShoes);
   return (
-    <main>
+    <main className="container-fluid">
       <PopupModal />
-      <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+      <h3>Womens Shoe Collections</h3>
+      <div className="row row-cols-1 row-cols-md-3 g-4">
         {womensShoe.map((singleWomensShoe) => (
           <div key={singleWomensShoe.id} className="col">
             <div
-              className="card h-100"
+              className="card h-100 cardBody"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
@@ -29,8 +30,8 @@ const WomenShoeCategories = () => {
                   longer.
                 </p>
               </div>
-              <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+              <div className="card-footer ProductModelNumber">
+                <small>Last updated 3 mins ago</small>
               </div>
             </div>
           </div>

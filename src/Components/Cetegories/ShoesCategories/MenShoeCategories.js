@@ -6,13 +6,14 @@ import PopupModal from "../../Shared/PopupModal/PopupModal";
 const MenShoeCategories = () => {
   const [mensShoes, setMenShoe] = useState(menShoes);
   return (
-    <main>
+    <main className="container-fluid">
       <MenPopModal />
-      <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+      <h3>Mens Shoe Collections</h3>
+      <div className="row row-cols-1 row-cols-md-3 g-4">
         {menShoes.map((singleMensShoe) => (
           <div key={singleMensShoe.id} className="col">
             <div
-              className="card h-100"
+              className="card h-100 cardBody"
               data-bs-toggle="modal"
               data-bs-target="#menModal"
             >
@@ -30,8 +31,8 @@ const MenShoeCategories = () => {
                   longer.
                 </p>
               </div>
-              <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+              <div className="card-footer ProductModelNumber">
+                <small>Last updated 3 mins ago</small>
               </div>
             </div>
           </div>
