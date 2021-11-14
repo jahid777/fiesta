@@ -43,7 +43,7 @@ const Bag = () => {
           {shoes.map((singleShoes) => (
             <div key={singleShoes.id} className="col">
               <div
-                className="card h-100"
+                className="card h-100 cardBody"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
@@ -54,15 +54,16 @@ const Bag = () => {
                   data-aos="fade-up"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                  <h5 className="card-title ProductPrice">TK. 1,200.00</h5>
+
+                  <p className="card-text ProductDescription">
+                    Product : Exclusive Ladies Shoe Material : Artificial
+                    Leather Color : Black (Glossy) High Quality Product Model No
+                    : BSS-104 Size : 36, 37, 38, 39, 40 & 41
                   </p>
                 </div>
-                <div className="card-footer">
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                <div className="card-footer ProductModelNumber">
+                  <small>Model No : BSS-104</small>
                 </div>
               </div>
             </div>
@@ -83,7 +84,7 @@ const Bag = () => {
           {bags.map((singleBag) => (
             <div key={singleBag.id} className="col">
               <div
-                className="card h-100"
+                className="card h-100 cardBody"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
@@ -94,15 +95,15 @@ const Bag = () => {
                   data-aos="fade-up"
                 />
                 <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
+                  <h5 className="card-title ProductPrice">Card title</h5>
+                  <p className="card-text ProductDescription">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
                   </p>
                 </div>
-                <div className="card-footer">
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                <div className="card-footer ProductModelNumber">
+                  <small>Last updated 3 mins ago</small>
                 </div>
               </div>
             </div>
@@ -123,7 +124,7 @@ const Bag = () => {
           {belts.map((singleBelt) => (
             <div key={singleBelt.id} className="col">
               <div
-                className="card h-100"
+                className="card h-100 cardBody"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
@@ -141,8 +142,8 @@ const Bag = () => {
                     longer.
                   </p>
                 </div>
-                <div className="card-footer">
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                <div className="card-footer ProductModelNumber">
+                  <small>Last updated 3 mins ago</small>
                 </div>
               </div>
             </div>
@@ -163,7 +164,7 @@ const Bag = () => {
           {anotherBagData.map((singleBag) => (
             <div className="col">
               <div
-                className="card h-100"
+                className="card h-100 cardBody"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
@@ -181,8 +182,8 @@ const Bag = () => {
                     longer.
                   </p>
                 </div>
-                <div className="card-footer">
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                <div className="card-footer ProductModelNumber">
+                  <small>Last updated 3 mins ago</small>
                 </div>
               </div>
             </div>
@@ -204,7 +205,7 @@ const Bag = () => {
           {wallets.map((singleWallet) => (
             <div key={singleWallet.id} className="col">
               <div
-                className="card h-100"
+                className="card h-100 cardBody"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
@@ -222,8 +223,8 @@ const Bag = () => {
                     longer.
                   </p>
                 </div>
-                <div className="card-footer">
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                <div className="card-footer ProductModelNumber">
+                  <small>Last updated 3 mins ago</small>
                 </div>
               </div>
             </div>

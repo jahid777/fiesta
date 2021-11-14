@@ -40,11 +40,9 @@ const Shoe = () => {
               className="tab-pane fade show active"
               id="ladiesShoeCategories"
             >
-              <h4 className="mt-2">Women Shoes Collection</h4>
               <WomenShoeCategories />
             </div>
             <div className="tab-pane fade" id="gentsShoeCategories">
-              <h4 className="mt-2">Men Shoes Collection</h4>
               <MenShoeCategories />
             </div>
           </div>

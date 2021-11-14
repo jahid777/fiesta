@@ -1,13 +1,29 @@
 .homeProductHead {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #bb9d25;
 }
+
 .Viewall {
   border: 1px solid #e6e6e6;
   border-bottom: 0;
+  background-color: var(--blue);
+}
+.Viewall .btn {
+  color: var(--white);
+}
+.Viewall .btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 .Viewall:hover {
-  background-color: var(--blue);
+  background-color: var(--red);
 }
 .Viewall .btn:hover {
   color: var(--white);
+}
+.ProductModelNumber {
+  background-color: var(--blue);
+  color: #fff !important;
+}
+.cardBody {
+  border: 1px solid #bb9d25;
 }
