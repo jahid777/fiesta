@@ -83,6 +83,10 @@ header a:hover {
 .navbar-toggler {
   border: none;
 }
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .mobileHam {
   color: var(--white);
   font-size: 30px !important;
@@ -90,6 +94,7 @@ header a:hover {
 .mobileNavLink {
   color: var(--black);
 }
+
 .mobileMenu:hover {
   color: var(--white) !important;
 }
