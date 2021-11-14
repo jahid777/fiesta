@@ -19,5 +19,6 @@
   text-decoration: none;
 }
 .footerLink:hover {
-  color: var(--red);
+  text-decoration: underline;
+  color: var(--white);
 }
