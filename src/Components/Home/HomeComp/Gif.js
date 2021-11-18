@@ -1,4 +1,5 @@
 import React from "react";
+import "./HomeComp.css";
 
 const Gif = () => {
   return (
@@ -6,9 +7,10 @@ const Gif = () => {
       style={{ display: "flex", justifyContent: "center", paddingTop: "40px" }}
     >
       <img
-        style={{ width: "100%" }}
-        src="https://gcp-img.slatic.net/lazada/b3d5ed4c-e496-4d0c-94ef-218aa56d918d_BD-1188-119.png"
-        alt=""
+        src="https://i.imgur.com/NLA7Oym.gif"
+        title="source: imgur.com"
+        alt="nai"
+        className="gifImg"
       />
     </div>
   );

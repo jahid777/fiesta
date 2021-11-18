@@ -27,3 +27,6 @@
 .cardBody {
   border: 1px solid #bb9d25;
 }
+.gifImg {
+  border-radius: 10px;
+}
