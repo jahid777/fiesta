@@ -54,7 +54,7 @@ const ContactUs = () => {
         <div className="col">
           <iframe
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2400793652505!2d90.3901751!3d23.738816699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c762aa8c59%3A0xd9d5fdfde912551f!2sUnicon%20Solution%20Ltd.!5e0!3m2!1sbn!2sbd!4v1636442911626!5m2!1sbn!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10591.012468008787!2d139.77198806376268!3d35.677209752681804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2zVG9reW8sIFTFjWt5xY0sIEphcG9uaWE!5e0!3m2!1sro!2sro!4v1637235492793!5m2!1sro!2sro"
             style={{ width: "600px", height: "450px" }}
           ></iframe>
         </div>
