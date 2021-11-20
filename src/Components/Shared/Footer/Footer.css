@@ -22,3 +22,7 @@
   text-decoration: underline;
   color: var(--white);
 }
+/* .footer_icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+} */

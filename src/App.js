@@ -14,6 +14,7 @@ import Accessories from "./Components/AllProducts/Accessories/Accessories";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 import MobileNavbar from "./Components/Shared/Navbar/MobileNavbar";
+import AboutUs from "./Components/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/belt" element={<Belt />} />
         <Route path="/wallet" element={<Wallet />} />
         <Route path="/accessories" element={<Accessories />} />
+        <Route path="/aboutus*" element={<AboutUs />} />
 
         <Route path="/*" element={<NotFound />} />
       </Routes>

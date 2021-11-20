@@ -29,14 +29,16 @@ const MenPopModal = () => {
                 <div syle={{ display: "flex" }}>
                   <i className="bi bi-telephone-outbound-fill"></i>{" "}
                   <span style={{ marginLeft: "5px" }} className="pr-4">
-                    012200000000
+                    +8801841477361
                   </span>
                 </div>
               </h5>
               <h5>
                 <div syle={{ display: "flex" }}>
                   <i className="bi bi-envelope-fill"></i>
-                  <span style={{ marginLeft: "10px" }}>Example@gmail.com</span>
+                  <span style={{ marginLeft: "10px" }}>
+                    admin@fiestalifestyle.com
+                  </span>
                 </div>
               </h5>
             </div>

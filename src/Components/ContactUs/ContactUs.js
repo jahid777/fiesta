@@ -43,10 +43,10 @@ const ContactUs = () => {
           </p>
           <p className="contact-text">
             <span>
-              <i className="bi bi-envelope-fill"></i> info@fiestaLeather.com
+              <i className="bi bi-envelope-fill"></i> admin@fiestalifestyle.com
             </span>
             <span className="ContactInfo">
-              <i className="bi bi-telephone-fill"></i> +88 0100000-0000
+              <i className="bi bi-telephone-fill"></i> +8801841477361
             </span>
           </p>
           <hr className="ContactHr"></hr>
