@@ -11,8 +11,7 @@ const Gif = () => {
       }}
     >
       <img
-        // src="https://i.imgur.com/LceFh7K.gif"
-        src="https://i.imgur.com/rXf9qSD.gif"
+        src="https://i.imgur.com/EUYpp6d.gif"
         title=""
         alt="nai"
         className="gifImg"
