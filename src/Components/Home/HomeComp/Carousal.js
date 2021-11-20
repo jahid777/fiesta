@@ -36,6 +36,7 @@ const Bag = () => {
             src="https://i.imgur.com/ENyAgPo.jpg"
             className="d-block w-100"
             alt="..."
+            height="450"
           />
         </div>
         <div className="carousel-item">
@@ -43,6 +44,7 @@ const Bag = () => {
             src="https://i.imgur.com/dxwZ8qX.jpg"
             className="d-block w-100"
             alt="..."
+            height="450"
           />
         </div>
         <div className="carousel-item">
@@ -50,6 +52,7 @@ const Bag = () => {
             src="https://i.imgur.com/n7ATGxe.jpg"
             className="d-block w-100"
             alt="..."
+            height="450"
           />
         </div>
       </div>
