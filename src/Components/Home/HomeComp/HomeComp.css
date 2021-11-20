@@ -30,5 +30,11 @@
 .gifImg {
   border-radius: 10px;
   margin-top: 25px;
-  width: 95% !important;
+  width: 80% !important;
+}
+@media only screen and (max-width: 900px) {
+  .gifImg {
+    margin-bottom: 20px;
+    width: 96% !important;
+  }
 }
