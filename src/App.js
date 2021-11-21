@@ -29,7 +29,7 @@ function App() {
         <Route path="/belt" element={<Belt />} />
         <Route path="/wallet" element={<Wallet />} />
         <Route path="/accessories" element={<Accessories />} />
-        <Route path="/aboutus*" element={<AboutUs />} />
+        <Route path="/aboutus" element={<AboutUs />} />
 
         <Route path="/*" element={<NotFound />} />
       </Routes>
