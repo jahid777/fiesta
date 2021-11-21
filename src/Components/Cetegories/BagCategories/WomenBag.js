@@ -5,7 +5,6 @@ import WomenBagPopup from "../../Shared/PopupModal/WomenBagPopup";
 
 const WomenBag = () => {
   const [womenBags, setWomenBags] = useState(womenBag);
-  console.log(womenBags, "here");
   return (
     <main>
       <WomenBagPopup />
