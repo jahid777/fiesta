@@ -13,7 +13,7 @@ const WomenBag = () => {
         {womenBags.map((singleWomenBag) => (
           <div key={singleWomenBag.id} className="col">
             <div
-              className="card h-100"
+              className="card h-100 cardBody"
               data-bs-toggle="modal"
               data-bs-target="#WomenBagModal"
             >
@@ -29,9 +29,7 @@ const WomenBag = () => {
                 <p className="card-text">Color: {singleWomenBag?.color}</p>
               </div>
               <div className="card-footer ProductModelNumber">
-                <small className="text-muted">
-                  {singleWomenBag.productCode}
-                </small>
+                <small>{singleWomenBag.productCode}</small>
               </div>
             </div>
           </div>
