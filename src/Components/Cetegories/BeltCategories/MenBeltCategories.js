@@ -16,21 +16,21 @@ const MenBeltCategories = () => {
               data-bs-target="#menModal"
             >
               <img
-                // style={{ height: "300px", width: "100%" }}
+                style={{ height: "250px", width: "auto" }}
                 src={singleMensBelt.img}
                 className="card-img-top img-fluid"
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
+                <h5 className="card-title">Tk. {singleMensBelt.price}</h5>
                 <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  <p className="card-text">{singleMensBelt.description}</p>
+                  <p className="card-text">Color: {singleMensBelt.color}</p>
+                  <p className="card-text">Size: {singleMensBelt.size}</p>
                 </p>
               </div>
-              <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+              <div className="card-footer ProductModelNumber">
+                <small>{singleMensBelt.ProductCode}</small>
               </div>
             </div>
           </div>

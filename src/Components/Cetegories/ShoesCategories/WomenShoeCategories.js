@@ -17,7 +17,6 @@ const WomenShoeCategories = () => {
               data-bs-target="#exampleModal"
             >
               <img
-                // style={{ height: "300px", width: "100%" }}
                 src={singleWomensShoe.img}
                 className="card-img-top img-fluid"
                 alt="..."
