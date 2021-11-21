@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { menShoes } from "../../../AllData/ShoesData";
 import MenPopModal from "../../Shared/PopupModal/MenPopModal";
-import PopupModal from "../../Shared/PopupModal/PopupModal";
 
 const MenShoeCategories = () => {
   const [mensShoes, setMenShoe] = useState(menShoes);

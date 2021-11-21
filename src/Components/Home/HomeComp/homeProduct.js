@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { shoesData } from "../../../AllData/AllData";
 import { bagsData } from "../../../AllData/AllData";
 import { beltsData } from "../../../AllData/AllData";
-// import { accessoriesData } from "../../../AllData/AllData";
 import { walletsData } from "../../../AllData/AllData";
 import AOS from "aos";
 import "aos/dist/aos.css";

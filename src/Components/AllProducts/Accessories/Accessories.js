@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import GiftCategories from "../../Cetegories/AccessoriesCategories/GiftCategories";
 import MousepadCategories from "../../Cetegories/AccessoriesCategories/MousepadCategories";
 
 const Accessories = () => {
