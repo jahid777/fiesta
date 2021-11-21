@@ -32,6 +32,9 @@
   margin-top: 25px;
   width: 80% !important;
 }
+.card-body p {
+  margin: 0;
+}
 @media only screen and (max-width: 900px) {
   .gifImg {
     margin-bottom: 20px;
