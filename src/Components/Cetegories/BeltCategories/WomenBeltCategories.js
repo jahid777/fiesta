@@ -16,7 +16,7 @@ const WomenBeltCategories = () => {
               data-bs-target="#exampleModal"
             >
               <img
-                // style={{ height: "300px", width: "100%" }}
+                style={{ height: "250px", width: "auto" }}
                 src={singleWomensBelt.img}
                 className="card-img-top img-fluid"
                 alt="..."
