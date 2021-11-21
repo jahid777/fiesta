@@ -38,9 +38,10 @@ const ContactUs = () => {
           <p>
             <i className="bi bi-geo-alt-fill"></i>
             <span className="contact-text">
-              238 Dewan Menshion, New Elephant Road, 4th Floor, Dhaka-1205.
+              1-chōme-9-1 Kyōbashi, Chuo City, Tokyo 104-0031, Japonia 238
             </span>
           </p>
+
           <p className="contact-text">
             <span>
               <i className="bi bi-envelope-fill"></i> admin@fiestalifestyle.com
@@ -52,9 +53,15 @@ const ContactUs = () => {
           <hr className="ContactHr"></hr>
         </div>
         <div className="col">
-          <iframe
+          {/* <iframe
             title="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10591.012468008787!2d139.77198806376268!3d35.677209752681804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2zVG9reW8sIFTFjWt5xY0sIEphcG9uaWE!5e0!3m2!1sro!2sro!4v1637235492793!5m2!1sro!2sro"
+            style={{ width: "600px", height: "450px" }}
+          ></iframe> */}
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.473588088822!2d139.77186767197688!3d35.678302652534505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be2b960449f%3A0xafa41af316f73ed7!2s1-ch%C5%8Dme-9-1%20Ky%C5%8Dbashi%2C%20Chuo%20City%2C%20Tokyo%20104-0031%2C%20Japonia!5e0!3m2!1sro!2sro!4v1637489444571!5m2!1sro!2sro"
+            title="map"
+            loading="lazy"
             style={{ width: "600px", height: "450px" }}
           ></iframe>
         </div>
