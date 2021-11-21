@@ -86,7 +86,7 @@ const MobileNavbar = () => {
               <Link
                 className="nav-link active mobileMenu"
                 aria-current="page"
-                to="/"
+                to="/aboutus"
               >
                 About us
               </Link>

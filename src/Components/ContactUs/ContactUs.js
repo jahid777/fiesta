@@ -84,7 +84,7 @@ const ContactUs = () => {
               type="number"
               className="form-control mt-2"
               id="inputAddress"
-              placeholder="Your address"
+              placeholder="Your phone"
               name="number"
               required
             />
