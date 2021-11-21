@@ -21,17 +21,16 @@ const WomenShoeCategories = () => {
                 src={singleWomensShoe.img}
                 className="card-img-top img-fluid"
                 alt="..."
+                style={{ height: "250px", width: "auto" }}
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <h5 className="card-title">Tk. {singleWomensShoe.price}</h5>
+                <p className="card-text">{singleWomensShoe.description}</p>
+                <p className="card-text">Color: {singleWomensShoe.color}</p>
+                <p className="card-text">Size: {singleWomensShoe.size}</p>
               </div>
               <div className="card-footer ProductModelNumber">
-                <small>Last updated 3 mins ago</small>
+                <small>{singleWomensShoe.ProductCode}</small>
               </div>
             </div>
           </div>
