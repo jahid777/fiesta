@@ -9,7 +9,7 @@ const Accessories = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_44/3516291/211101-teacher-gifts-bd-2x1.jpg"
+          src="https://cdn.shopify.com/s/files/1/1480/7070/files/legacy_leather_banner.jpg"
           alt=""
         />
       </div>
