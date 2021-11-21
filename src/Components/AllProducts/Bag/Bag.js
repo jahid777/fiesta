@@ -11,7 +11,7 @@ const AllProducts = () => {
     <div>
       <img
         style={{ height: "350px", width: "100%" }}
-        src="https://previews.123rf.com/images/bettystrange/bettystrange1912/bettystrange191200040/136156910-cute-shopping-bag-banner-colorful-shopping-bags-with-different-design-board-gift-package-with-space-.jpg"
+        src="https://ssbleather.com/pub/media/catalog/category/Bag-banner_1.jpg"
         alt=""
       />
       <div className="container-fluid">
