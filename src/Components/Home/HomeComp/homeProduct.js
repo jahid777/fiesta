@@ -53,6 +53,7 @@ const Bag = () => {
                   className="card-img-top img-fluid"
                   alt="..."
                   data-aos="fade-up"
+                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title ProductPrice">
@@ -100,6 +101,7 @@ const Bag = () => {
                   className="card-img-top img-fluid"
                   alt="..."
                   data-aos="fade-up"
+                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title ProductPrice">
@@ -146,6 +148,7 @@ const Bag = () => {
                   className="card-img-top img-fluid"
                   alt="..."
                   data-aos="fade-up"
+                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title"> Tk. {singleBelt?.price}</h5>
@@ -186,6 +189,7 @@ const Bag = () => {
                   className="card-img-top img-fluid"
                   alt="..."
                   data-aos="fade-up"
+                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">Tk. {singleWallet?.price}</h5>
@@ -226,6 +230,7 @@ const Bag = () => {
                   className="card-img-top img-fluid"
                   alt="..."
                   data-aos="fade-up"
+                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">Tk. {singleAccessories?.price}</h5>
