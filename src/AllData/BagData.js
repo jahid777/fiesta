@@ -2,15 +2,27 @@
 export const womenBag = [
   {
     id: 1,
-    ProductCode: "BBG-7030",
-    img: "https://i.imgur.com/jReLaip.jpg",
-    price: 2700,
+    productCode: "FSB-002",
+    category: "bag",
+    subCategory: "officeBag",
+    price: 1000.0,
+    img: "https://i.imgur.com/20FMklB.jpg",
+    description:
+      "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
+    color: "Blue Color Leather with Designer Fabrics",
+    size: " H x W - 15' x 16' ",
   },
   {
     id: 2,
-    ProductCode: "BBG-703",
-    img: "https://i.imgur.com/vw4Ole0.jpg",
-    price: 2700,
+    productCode: "LCB-0002J",
+    category: "bag",
+    subCategory: "officeBag",
+    price: 1800.0,
+    img: "https://i.imgur.com/ON15Qxt.jpg",
+    description:
+      "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
+    color: "Brown Designer Leather with Black Color Leather",
+    size: "  H x W - 12.5' x 9.5' ",
   },
   {
     id: 3,

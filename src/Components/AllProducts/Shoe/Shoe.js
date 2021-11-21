@@ -9,7 +9,7 @@ const Shoe = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://cdn.shopify.com/s/files/1/2287/9679/files/step-into-the-winter-web-banner.jpg?v=1635856659"
+          src="https://i.imgur.com/u63K4gf.jpg"
           alt=""
         />
       </div>
