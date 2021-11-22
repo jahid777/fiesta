@@ -11,26 +11,24 @@ const GymBag = () => {
         {gyms.map((singleGym) => (
           <div key={singleGym.id} className="col">
             <div
-              className="card h-100"
+              className="card h-100 cardBody"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
               <img
-                // style={{ height: "300px", width: "100%" }}
                 src={singleGym.img}
                 className="card-img-top img-fluid"
                 alt="..."
+                style={{ height: "250px", width: "auto" }}
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <h5 className="card-title">Tk. {singleGym.price}</h5>
+                <p className="card-text">{singleGym.description}</p>
+                <p className="card-text">Color: {singleGym.color}</p>
+                <p className="card-text">Size: {singleGym.size}</p>
               </div>
-              <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+              <div className="card-footer ProductModelNumber">
+                <small>{singleGym.ProductCode}</small>
               </div>
             </div>
           </div>

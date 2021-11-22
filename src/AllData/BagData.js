@@ -325,51 +325,126 @@ export const womenBag = [
 //this is gym bag
 export const gymBag = [
   {
-    id: 4,
-    ProductCode: "BBG-7030",
-    img: "https://i.imgur.com/p0OIse7.jpg",
-    price: 2700,
+    id: 1,
+    ProductCode: "BGG-8002",
+    img: "https://i.imgur.com/HAAcV5q.jpg",
+    price: 1600.0,
+    description:
+      "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
+    color: "Red Leather with Meroon Fabrics",
+    size: " H x W - 14' x 18' ",
   },
+
   {
-    id: 5,
-    ProductCode: "BBG-703",
-    img: "https://i.imgur.com/5ewviKd.jpg",
-    price: 2700,
-  },
-  {
-    id: 6,
-    ProductCode: "BGB-6003",
-    img: "https://i.imgur.com/Nr4CATv.jpg",
-    price: 2700,
+    id: 2,
+    ProductCode: "BGG-8002",
+    img: "https://i.imgur.com/uciBSbO.jpg",
+    price: 1600.0,
+    description:
+      "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
+    color: "Green Leather with Black Fabrics",
+    size: " H x W - 14' x 18' ",
   },
 ];
 
 //this is office bag
 export const officeBag = [
   {
+    id: 4,
+    ProductCode: "BLB-605",
+    img: "https://i.imgur.com/79DfxCO.jpg",
+    price: 5500.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Black Leather",
+    size: " H x W x L - 14' x 17.5' x 4' ",
+  },
+  {
+    id: 5,
+    ProductCode: "BLB-607",
+    img: "https://i.imgur.com/1BXriI1.jpg",
+    price: 5500.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Black Leather",
+    size: " H x W x L - 17' x 10.5' x 6' ",
+  },
+  {
+    id: 6,
+    ProductCode: "CRB-01",
+    img: "https://i.imgur.com/SPVQOzO.jpg",
+    price: 1200.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Black Leather",
+    size: "  H x W x L - 8' x 5' x2 ' ",
+  },
+  {
     id: 7,
-    ProductCode: "BBG-7030",
-    img: "https://i.imgur.com/baKnYHC.jpg",
-    price: 2700,
+    ProductCode: "BLB-606",
+    img: "https://i.imgur.com/Xoop8WO.jpg",
+    price: 5200.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Black Leather",
+    size: "  H x W x L - 8' x 5' x2 ' ",
   },
   {
     id: 8,
-    ProductCode: "BBG-703",
-    img: "https://i.imgur.com/0iCj7UJ.jpg",
-    price: 2700,
+    ProductCode: "LPB-001",
+    img: "https://i.imgur.com/VR9PGgk.jpg",
+    price: 2050.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Dark Brown",
+    size: "  H x W x L - 12.5' x 10.5' x 4.5 ' ",
   },
   {
     id: 9,
-    ProductCode: "BGB-6003",
-    img: "https://i.imgur.com/TD8aBbi.png",
-    price: 2700,
+    ProductCode: "LPB-001",
+    img: "https://i.imgur.com/zMBZoT0.jpg",
+    price: 2050.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Medium Dark Brown",
+    size: "  H x W x L - 12.5' x 10.5' x 4.5 ' ",
+  },
+  {
+    id: 10,
+    ProductCode: "CRB-01",
+    img: "https://i.imgur.com/jRGOcHI.jpg",
+    price: 1200.0,
+    description:
+      "2 Part Multipurpose Bag | 100% Leather | In this pocket you can carry Mobile, Notepad & other essential goods.",
+    color: "Silver",
+    size: "  H x W x L - 8' x 5' x2 ' ",
+  },
+  {
+    id: 11,
+    ProductCode: "LPB-0010",
+    img: "https://i.imgur.com/DLN00q9.jpg",
+    price: 2700.0,
+    description:
+      "1 Part Multipurpose Backpack | 100% Leather | In this pocket you can carry Mobile, Notepad & other essential goods.",
+    color: "Black with Meroon",
+    size: "  H x W x L - 14' x 10' x 6' ",
+  },
+  {
+    id: 12,
+    ProductCode: "CAN-01",
+    img: "https://i.imgur.com/XJszyuD.jpg",
+    price: 1950.0,
+    description:
+      "Exclusive Multipurpose Office CANVAS Backpack with | 100% Leather",
+    color: "Black Canvas & Leather",
+    size: "  H x W x D - 18' x 12' x 6' ",
   },
 ];
 // this is laptop bag
 export const laptopBag = [
   {
     id: 1,
-    productCode: "BGB-6003",
+    ProductCode: "BGB-6003",
     category: "bag",
     subCategory: "officeBag",
     price: 2700.0,
@@ -381,7 +456,7 @@ export const laptopBag = [
   },
   {
     id: 2,
-    productCode: "BGB-6002",
+    ProductCode: "BGB-6002",
     category: "bag",
     subCategory: "officeBag",
     price: 2700.0,
@@ -392,15 +467,63 @@ export const laptopBag = [
     size: " H x W x L - 13.5'x13'x5' ",
   },
   {
-    id: 11,
-    ProductCode: "BBG-703",
-    img: "https://i.imgur.com/0iCj7UJ.jpg",
-    price: 2700,
+    id: 4,
+    ProductCode: "BLB-605",
+    img: "https://i.imgur.com/79DfxCO.jpg",
+    price: 5500.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Black Leather",
+    size: " H x W x L - 14' x 17.5' x 4' ",
   },
   {
-    id: 12,
-    ProductCode: "BGB-6003",
-    img: "https://i.imgur.com/baKnYHC.jpg",
-    price: 2700,
+    id: 5,
+    ProductCode: "BLB-606",
+    img: "https://i.imgur.com/1BXriI1.jpg",
+    price: 5500.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Black Leather",
+    size: " H x W x L - 17' x 10.5' x 6' ",
+  },
+  {
+    id: 6,
+    ProductCode: "CRB-01",
+    img: "https://i.imgur.com/SPVQOzO.jpg",
+    price: 1200.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Black Leather",
+    size: "  H x W x L - 8' x 5' x2 ' ",
+  },
+  {
+    id: 7,
+    ProductCode: "BLB-606",
+    img: "https://i.imgur.com/Xoop8WO.jpg",
+    price: 5200.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Black Leather",
+    size: "  H x W x L - 8' x 5' x2 ' ",
+  },
+  {
+    id: 8,
+    ProductCode: "LPB-001",
+    img: "https://i.imgur.com/VR9PGgk.jpg",
+    price: 2050.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Dark Brown",
+    size: "  H x W x L - 12.5' x 10.5' x 4.5 ' ",
+  },
+  {
+    id: 9,
+    ProductCode: "LPB-001",
+    img: "https://i.imgur.com/zMBZoT0.jpg",
+    price: 2050.0,
+    description:
+      "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
+    color: "Medium Dark Brown",
+    size: "  H x W x L - 12.5' x 10.5' x 4.5 ' ",
   },
 ];

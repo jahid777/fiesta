@@ -11,26 +11,24 @@ const LaptopBag = () => {
         {laptopBags.map((singleLaptopBag) => (
           <div key={singleLaptopBag.id} className="col">
             <div
-              className="card h-100"
+              className="card h-100 cardBody"
               data-bs-toggle="modal"
               data-bs-target="#laptopBagModal"
             >
               <img
-                // style={{ height: "300px", width: "100%" }}
+                style={{ height: "250px", width: "auto" }}
                 src={singleLaptopBag.img}
                 className="card-img-top img-fluid"
                 alt="..."
               />
               <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
+                <h5 className="card-title">Tk. {singleLaptopBag.price}</h5>
+                <p className="card-text">{singleLaptopBag.description}</p>
+                <p className="card-text">Color: {singleLaptopBag.color}</p>
+                <p className="card-text">Size: {singleLaptopBag.size}</p>
               </div>
-              <div className="card-footer">
-                <small className="text-muted">Last updated 3 mins ago</small>
+              <div className="card-footer ProductModelNumber">
+                <small>{singleLaptopBag.ProductCode}</small>
               </div>
             </div>
           </div>
