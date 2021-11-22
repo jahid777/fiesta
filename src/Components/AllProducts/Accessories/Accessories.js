@@ -8,7 +8,7 @@ const Accessories = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://cdn.shopify.com/s/files/1/1480/7070/files/legacy_leather_banner.jpg"
+          src="https://i.imgur.com/aRFy7KK.jpg"
           alt=""
         />
       </div>

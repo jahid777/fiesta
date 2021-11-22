@@ -9,7 +9,7 @@ const Belt = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://www.tiarranimenswear.com/wp-content/uploads/2020/08/LeatherBelts-Banner.jpg"
+          src="https://i.imgur.com/uIpLHSG.jpg"
           alt=""
         />
       </div>
