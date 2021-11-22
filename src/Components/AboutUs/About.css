@@ -1,0 +1,37 @@
+.about_banner {
+  width: 100%;
+}
+.text-description-header {
+  text-align: justify !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.first_letter {
+  font-weight: 700;
+  font-size: 40px;
+}
+.main-text-div {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.heading-text {
+  border-right: 5px solid var(--red);
+}
+.body_description {
+  font-size: 22px;
+}
+
+.hr_design {
+  width: 70%;
+  border: 1px dotted black !important;
+  color: var(--red);
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 900px) {
+  .heading-text {
+    border-bottom: 5px solid var(--red);
+    border-right: none;
+    margin-bottom: 20px;
+  }
+}

@@ -9,7 +9,8 @@ const Wallet = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://www.saaexclusive.com/wp-content/uploads/2020/03/Banner_SAA-1410x728.jpg"
+          // src="https://i.imgur.com/c17nlGb.jpg"
+          src="https://i.imgur.com/GQaohj5.jpg"
           alt=""
         />
       </div>

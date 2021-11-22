@@ -11,7 +11,7 @@ const AllProducts = () => {
     <div>
       <img
         style={{ height: "350px", width: "100%" }}
-        src="https://ssbleather.com/pub/media/catalog/category/Bag-banner_1.jpg"
+        src="https://i.imgur.com/frLrNMd.jpg"
         alt=""
       />
       <div className="container-fluid">
