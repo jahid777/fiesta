@@ -11,7 +11,8 @@ const AboutUs = () => {
     <div>
       <img
         className="about_banner"
-        src="https://i.imgur.com/HPIA7RP.png"
+        // src="https://i.imgur.com/HPIA7RP.png"
+        src="https://i.imgur.com/R6izuMg.png"
         alt=""
       />
       <section className="container">
