@@ -39,6 +39,14 @@ const ContactUs = () => {
             <i className="bi bi-geo-alt-fill"></i>
             <span className="contact-text">
               1-chōme-9-1 Kyōbashi, Chuo City, Tokyo 104-0031, Japonia 238
+              (Japan Office)
+            </span>
+          </p>
+
+          <p> 
+            <i className="bi bi-geo-alt-fill"></i>
+            <span className="contact-text">
+              New Elephant Rd, Dhaka 1205, Bangladesh (Bangladesh Office)
             </span>
           </p>
 
