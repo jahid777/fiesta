@@ -45,4 +45,7 @@
     margin-bottom: 20px;
     width: 96% !important;
   }
+  .carousel-item img {
+    height: 200px;
+  }
 }
