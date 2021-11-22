@@ -11,7 +11,7 @@ const MenBeltCategories = () => {
         {mensBelt.map((singleMensBelt) => (
           <div key={singleMensBelt.id} className="col">
             <div
-              className="card h-100"
+              className="card h-100 cardBody"
               data-bs-toggle="modal"
               data-bs-target="#menModal"
             >
@@ -26,7 +26,6 @@ const MenBeltCategories = () => {
                 <p className="card-text">
                   <p className="card-text">{singleMensBelt.description}</p>
                   <p className="card-text">Color: {singleMensBelt.color}</p>
-                  <p className="card-text">Size: {singleMensBelt.size}</p>
                 </p>
               </div>
               <div className="card-footer ProductModelNumber">
