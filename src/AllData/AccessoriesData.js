@@ -1,43 +1,42 @@
-// // this is giftData
-// export const giftData = [
-//   {
-//     id: 1,
-//     ProductCode: "BBG-7030",
-//     img: "https://i.imgur.com/jReLaip.jpg",
-//     price: 2700,
-//   },
-//   {
-//     id: 2,
-//     ProductCode: "BBG-703",
-//     img: "https://i.imgur.com/vw4Ole0.jpg",
-//     price: 2700,
-//   },
-//   {
-//     id: 3,
-//     ProductCode: "BGB-6003",
-//     img: "https://i.imgur.com/wC0lWaw.jpg",
-//     price: 2700,
-//   },
-// ];
-
-// this is mouse pad data
 export const mousepadData = [
   {
     id: 1,
-    ProductCode: "BBG-7030",
-    img: "https://i.imgur.com/1ci37ad.jpg",
-    price: 2700,
+    productCode: "MP-001",
+    category: "mouse pad",
+    price: 250,
+    img: "https://i.imgur.com/vMtSajo.png",
+    description:
+      "Made of microfiber leather, soft and smooth enough to bring comfort to you when using this desk pad. Surface of the mouse pad is waterproof to protect from water, drinks, oil stains or other accidents.",
+    color: "Black",
+    size: " 11' width 8' ",
   },
   {
     id: 2,
-    ProductCode: "BBG-703",
-    img: "https://i.imgur.com/1ci37ad.jpg",
-    price: 2700,
+    productCode: "MP-002",
+    category: "mouse pad",
+    price: 150,
+    img: "https://i.imgur.com/vMtSajo.png",
+    description:
+      "Made of Artificial leather, soft and smooth enough to bring comfort to you when using this desk pad. Surface of the mouse pad is waterproof to protect from water, drinks, oil stains or other accidents.",
+    color: "Black",
+    size: " 11' width 8' ",
   },
   {
     id: 3,
-    ProductCode: "BGB-6003",
-    img: "https://i.imgur.com/1ci37ad.jpg",
-    price: 2700,
+    productCode: "MP-###",
+    category: "mouse pad",
+    price: 0,
+    img: "https://i.imgur.com/iC0XvWC.jpg",
+    description: "Various Kinds of Mouse | handcrafted",
+    color: "various",
+  },
+  {
+    id: 4,
+    productCode: "MP-###",
+    category: "mouse pad",
+    price: 0,
+    img: "https://i.imgur.com/JtXrifU.jpg",
+    description: "Various Kinds of Mouse | handcrafted ",
+    color: "various",
   },
 ];

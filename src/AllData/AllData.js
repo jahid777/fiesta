@@ -187,7 +187,7 @@ export const accessoriesData = [
   {
     id: 1,
     productCode: "MP-001",
-    category: "bag",
+    category: "mouse pad",
     price: 250,
     img: "https://i.imgur.com/vMtSajo.png",
     description:
