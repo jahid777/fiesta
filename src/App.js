@@ -15,10 +15,12 @@ import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 import MobileNavbar from "./Components/Shared/Navbar/MobileNavbar";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import RouterChangeTop from "./Components/RouterChangeTop/RouterChangeTop";
 
 function App() {
   return (
     <div>
+      <RouterChangeTop />
       <Navbar />
       <MobileNavbar />
       <Routes>
