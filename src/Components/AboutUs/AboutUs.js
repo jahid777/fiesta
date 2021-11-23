@@ -8,7 +8,7 @@ const AboutUs = () => {
     });
   }, []);
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <img
         className="about_banner"
         // src="https://i.imgur.com/HPIA7RP.png"
@@ -70,7 +70,7 @@ const AboutUs = () => {
             <div className="col-md-6 heading-text" data-aos="fade-right">
               <h1>The Love hidden behind a design:</h1>
             </div>
-            <div className="col-md-6 " data-aos="fade-left">
+            <div className="col-md-6" data-aos="fade-left">
               <p>
                 <span className="first_letter">Our</span>{" "}
                 <span className="body_description">

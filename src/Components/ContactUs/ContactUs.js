@@ -50,14 +50,14 @@ const ContactUs = () => {
             </span>
           </p>
 
-          <p className="contact-text">
-            <span>
+          <div className="justify-content-center emailPhone">
+            <p>
               <i className="bi bi-envelope-fill"></i> admin@fiestalifestyle.com
-            </span>
-            <span className="ContactInfo">
+            </p>
+            <p>
               <i className="bi bi-telephone-fill"></i> +8801841477361
-            </span>
-          </p>
+            </p>
+          </div>
           <hr className="ContactHr"></hr>
         </div>
         <div className="col-md-6 mb-5">

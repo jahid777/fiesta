@@ -4,13 +4,6 @@
 
 .contactHead i {
   font-size: 19px;
-  /* font-size: 20px; */
-}
-/* .contact-text {
-  font-size: 20px;
-} */
-.ContactInfo {
-  margin-left: 10px;
 }
 .ContactHr {
   background-color: var(--blue);
@@ -23,7 +16,15 @@
 }
 
 .myBtn:hover {
-  /* background-color: #b8860b; */
   background-color: var(--red);
   color: var(--white);
+}
+
+@media only screen and (min-width: 900px) {
+  .emailPhone {
+    display: flex;
+  }
+  .emailPhone p:first-child {
+    margin-right: 10px;
+  }
 }
