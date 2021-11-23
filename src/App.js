@@ -20,6 +20,7 @@ import RouterChangeTop from "./Components/RouterChangeTop/RouterChangeTop";
 function App() {
   return (
     <div>
+      {/* this RouterChangeTop is for page top when change router */}
       <RouterChangeTop />
       <Navbar />
       <MobileNavbar />
