@@ -331,7 +331,7 @@ export const gymBag = [
     price: 1600.0,
     description:
       "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
-    color: "Red Leather with Meroon Fabrics",
+    color: "Red Leather with Maroon Fabrics",
     size: " H x W - 14' x 18' ",
   },
 
@@ -426,7 +426,7 @@ export const officeBag = [
     price: 2700.0,
     description:
       "1 Part Multipurpose Backpack | 100% Leather | In this pocket you can carry Mobile, Notepad & other essential goods.",
-    color: "Black with Meroon",
+    color: "Black with Maroon",
     size: "  H x W x L - 14' x 10' x 6' ",
   },
   {

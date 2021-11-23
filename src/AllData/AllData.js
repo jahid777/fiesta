@@ -60,12 +60,12 @@ export const bagsData = [
     productCode: "FSB-002",
     category: "bag",
     subCategory: "officeBag",
-    price: 1000.0,
+    price: 2050.0,
     img: "https://i.imgur.com/20FMklB.jpg",
     description:
-      "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
-    color: "Blue Color Leather with Designer Fabrics",
-    size: " H x W - 15' x 16' ",
+      "Exclusive Multipurpose Backpack | 100% Leather  | Very High Quality",
+    color: "Medium Dark Brown",
+    size: " H x W x L - 12.5' x 10.5' x 4.5 ",
   },
   {
     id: 2,
@@ -100,7 +100,7 @@ export const bagsData = [
     img: "https://i.imgur.com/9O4SDh2.jpg",
     description:
       "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
-    color: "Red Leather with Meroon Fabrics",
+    color: "Red Leather with Maroon Fabrics",
     size: " H x W - 14' x 18' ",
   },
 ];
@@ -209,18 +209,18 @@ export const accessoriesData = [
   // mouse pad
   {
     id: 3,
-    productCode: "MP-###",
+    productCode: "MP-003",
     category: "mouse pad",
-    price: 0,
+    price: 100,
     img: "https://i.imgur.com/iC0XvWC.jpg",
     description: "Various Kinds of Mouse | handcrafted",
     color: "various",
   },
   {
     id: 4,
-    productCode: "MP-###",
+    productCode: "MP-004",
     category: "mouse pad",
-    price: 0,
+    price: 100,
     img: "https://i.imgur.com/JtXrifU.jpg",
     description: "Various Kinds of Mouse | handcrafted ",
     color: "various",
