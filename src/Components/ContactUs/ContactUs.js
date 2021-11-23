@@ -121,9 +121,11 @@ const ContactUs = () => {
             </button>
           </div>
           <div>
-            <p style={{ color: "green", fontWeight: "bold", marginTop: "5px" }}>
+            <h4
+              style={{ color: "green", fontWeight: "bold", marginTop: "12px" }}
+            >
               {message}
-            </p>
+            </h4>
           </div>
         </form>
       </div>
