@@ -43,7 +43,7 @@ const ContactUs = () => {
             </span>
           </p>
 
-          <p> 
+          <p>
             <i className="bi bi-geo-alt-fill"></i>
             <span className="contact-text">
               New Elephant Rd, Dhaka 1205, Bangladesh (Bangladesh Office)
@@ -60,12 +60,12 @@ const ContactUs = () => {
           </p>
           <hr className="ContactHr"></hr>
         </div>
-        <div className="col">
+        <div className="col-md-6 mb-5">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.473588088822!2d139.77186767197688!3d35.678302652534505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188be2b960449f%3A0xafa41af316f73ed7!2s1-ch%C5%8Dme-9-1%20Ky%C5%8Dbashi%2C%20Chuo%20City%2C%20Tokyo%20104-0031%2C%20Japonia!5e0!3m2!1sro!2sro!4v1637489444571!5m2!1sro!2sro"
             title="map"
             loading="lazy"
-            style={{ width: "600px", height: "450px" }}
+            style={{ width: "100%", height: "450px" }}
           ></iframe>
         </div>
         <form className="col" onSubmit={sendEmail}>
