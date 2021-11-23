@@ -4,7 +4,7 @@ import "./About.css";
 const AboutUs = () => {
   useEffect(() => {
     Aos.init({
-      duration: 1000,
+      duration: 2000,
     });
   }, []);
   return (
