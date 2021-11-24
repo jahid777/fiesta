@@ -81,16 +81,16 @@ export const bagsData = [
   },
   // office Bag
   {
-    id: 3,
-    productCode: "BLB-606",
+    id: 13,
+    productCode: "YCB-602",
     category: "bag",
     subCategory: "officeBag",
-    price: 5200.0,
-    img: "https://i.imgur.com/ZDm4zMg.jpg",
+    price: 1200.0,
+    img: "https://i.imgur.com/pxbGo05.jpg",
     description:
-      "Exclusive Multipurpose Office cum Laptop Backpack | 100% Leather | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
-    color: "Black Leather",
-    size: "  H x W x L - 17' x 10.5' x 6' ",
+      "Exclusive Ladies Party Bag | 100% Leather | Very High Quality",
+    color: "Snow Drift",
+    size: " H x W x L - 7' x 8' x 4' ",
   },
   {
     id: 4,

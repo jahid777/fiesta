@@ -40,6 +40,9 @@
   height: 10px !important;
   border-radius: 50%;
 }
+.homeProductImage {
+  border-bottom: 1px solid #bb9d25;
+}
 @media only screen and (max-width: 900px) {
   .gifImg {
     margin-bottom: 20px;

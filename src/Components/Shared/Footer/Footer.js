@@ -8,7 +8,7 @@ const Footer = () => {
         <section className="mb-4">
           <a
             className="btn btn-outline-light btn-floating m-1 "
-            href="https://www.facebook.com/ShokhBari"
+            href="https://www.facebook.com/JapanFiesta/"
             role="button"
             target="_blank"
             rel="noreferrer"
@@ -38,13 +38,7 @@ const Footer = () => {
         </section>
       </div>
 
-      <div className="text-center">
-        {/* <span>
-          <Link to="/" className="footerLink">
-            Terms & Conditions
-          </Link>
-        </span> */}
-      </div>
+      <div className="text-center"></div>
 
       <div className="text-center p-3">
         © {new Date().getFullYear()} Copyright |

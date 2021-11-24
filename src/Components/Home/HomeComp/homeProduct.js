@@ -27,55 +27,6 @@ const Bag = () => {
     <main>
       <PopupModal />
       <div className="container-fluid mt-5 mb-5 px-5">
-        {/* this is for shoes */}
-        <div className="d-flex bd-highlight homeProductHead">
-          <div className="me-auto bd-highlight">
-            <h3>Shoe Items</h3>
-          </div>
-          <div className="bd-highlight Viewall">
-            <Link to="/shoe" className="btn">
-              View All
-            </Link>
-          </div>
-        </div>
-
-        <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
-          {shoes.map((singleShoes) => (
-            <div key={singleShoes.id} className="col">
-              <div
-                className="card h-100 cardBody"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                <img
-                  src={singleShoes?.img}
-                  className="card-img-top img-fluid"
-                  alt="..."
-                  data-aos="fade-up"
-                  style={{ height: "200px", width: "auto" }}
-                />
-                <div className="card-body">
-                  <h5 className="card-title ProductPrice">
-                    TK. {singleShoes.price}
-                  </h5>
-
-                  <p className="card-text ProductDescription">
-                    {singleShoes.description}
-                  </p>
-                  <p className="card-text ProductDescription">
-                    Color: {singleShoes.color}
-                  </p>
-                  <p className="card-text ProductDescription">
-                    Size: {singleShoes.size}
-                  </p>
-                </div>
-                <div className="card-footer ProductModelNumber">
-                  <small>Model No : BSS-104</small>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
         {/* this is for bag */}
         <div className="d-flex bd-highlight homeProductHead mt-5">
           <div className="me-auto bd-highlight">
@@ -97,10 +48,9 @@ const Bag = () => {
               >
                 <img
                   src={singleBag?.img}
-                  className="card-img-top img-fluid"
+                  className="card-img-top img-fluid homeProductImage"
                   alt="..."
                   data-aos="fade-up"
-                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title ProductPrice">
@@ -123,6 +73,7 @@ const Bag = () => {
             </div>
           ))}
         </div>
+
         {/* this is for belt */}
         <div className="d-flex bd-highlight homeProductHead mt-5">
           <div className="me-auto bd-highlight">
@@ -144,10 +95,9 @@ const Bag = () => {
               >
                 <img
                   src={singleBelt?.img}
-                  className="card-img-top img-fluid"
+                  className="card-img-top img-fluid homeProductImage"
                   alt="..."
                   data-aos="fade-up"
-                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title"> Tk. {singleBelt?.price}</h5>
@@ -185,10 +135,9 @@ const Bag = () => {
               >
                 <img
                   src={singleWallet?.img}
-                  className="card-img-top img-fluid"
+                  className="card-img-top img-fluid homeProductImage"
                   alt="..."
                   data-aos="fade-up"
-                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">Tk. {singleWallet?.price}</h5>
@@ -205,6 +154,55 @@ const Bag = () => {
           ))}
         </div>
         {/* end Wallet */}
+
+        {/* this is for shoes */}
+        <div className="d-flex bd-highlight homeProductHead mt-5">
+          <div className="me-auto bd-highlight">
+            <h3>Shoe Items</h3>
+          </div>
+          <div className="bd-highlight Viewall">
+            <Link to="/shoe" className="btn">
+              View All
+            </Link>
+          </div>
+        </div>
+
+        <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
+          {shoes.map((singleShoes) => (
+            <div key={singleShoes.id} className="col">
+              <div
+                className="card h-100 cardBody"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <img
+                  src={singleShoes?.img}
+                  className="card-img-top img-fluid homeProductImage"
+                  alt="..."
+                  data-aos="fade-up"
+                />
+                <div className="card-body">
+                  <h5 className="card-title ProductPrice">
+                    TK. {singleShoes.price}
+                  </h5>
+
+                  <p className="card-text ProductDescription">
+                    {singleShoes.description}
+                  </p>
+                  <p className="card-text ProductDescription">
+                    Color: {singleShoes.color}
+                  </p>
+                  <p className="card-text ProductDescription">
+                    Size: {singleShoes.size}
+                  </p>
+                </div>
+                <div className="card-footer ProductModelNumber">
+                  <small>Model No : BSS-104</small>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
         {/* another product(laptop, office) */}
         <div className="d-flex bd-highlight homeProductHead mt-5">
           <div className="me-auto bd-highlight">
@@ -226,10 +224,9 @@ const Bag = () => {
               >
                 <img
                   src={singleAccessories?.img}
-                  className="card-img-top img-fluid"
+                  className="card-img-top img-fluid homeProductImage"
                   alt="..."
                   data-aos="fade-up"
-                  style={{ height: "200px", width: "auto" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">Tk. {singleAccessories?.price}</h5>
