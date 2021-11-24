@@ -79,7 +79,7 @@ export const menBelt = [
   {
     id: 1,
     ProductCode: "BCS-700",
-    img: "https://i.imgur.com/XQd20k5.jpg",
+    img: "https://i.imgur.com/fKP0SjW.jpg",
     price: 700.0,
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Chocolate & Black Leather",
@@ -87,7 +87,7 @@ export const menBelt = [
   {
     id: 2,
     ProductCode: "BMB-1112",
-    img: "https://i.imgur.com/vI1qps5.jpg",
+    img: "https://i.imgur.com/XR2K3xU.jpg",
     price: 650.0,
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Black Leather",

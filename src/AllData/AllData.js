@@ -81,7 +81,7 @@ export const bagsData = [
   },
   // office Bag
   {
-    id: 13,
+    id: 3,
     productCode: "YCB-602",
     category: "bag",
     subCategory: "officeBag",
