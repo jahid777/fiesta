@@ -33,11 +33,9 @@ const Belt = () => {
           </ul>
           <div className="tab-content mt-5">
             <div className="tab-pane fade show active" id="WomenBelt">
-              <h4 className="mt-2">Women Belt Collection</h4>
               <WomenBeltCategories />
             </div>
             <div className="tab-pane fade" id="menBelt">
-              <h4 className="mt-2">Men Belt Bollection</h4>
               <MenBeltCategories />
             </div>
           </div>

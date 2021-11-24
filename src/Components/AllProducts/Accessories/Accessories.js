@@ -40,7 +40,6 @@ const Accessories = () => {
               <GiftCategories />
             </div> */}
             <div className="tab-pane fade show active" id="mousepad">
-              <h4 className="mt-2">Mousepad Item Collection</h4>
               <MousepadCategories />
             </div>
           </div>

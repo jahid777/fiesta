@@ -19,7 +19,7 @@ const AllProducts = () => {
           <ul className="nav nav-tabs" id="myTab">
             <li className="nav-item">
               <Link to="#gym" className="nav-link active" data-bs-toggle="tab">
-                GYM BAG
+                LADIES BAG
               </Link>
             </li>
             <li className="nav-item">
@@ -29,31 +29,27 @@ const AllProducts = () => {
             </li>
             <li className="nav-item">
               <Link to="#women" className="nav-link" data-bs-toggle="tab">
-                WOMEN BAG
+                LAPTOP BAG
               </Link>
             </li>
             <li className="nav-item">
               <Link to="#laptop" className="nav-link" data-bs-toggle="tab">
-                LAPTOP BAG
+                GYM BAG
               </Link>
             </li>
           </ul>
           <div className="tab-content mt-5">
             <div className="tab-pane fade show active" id="gym">
-              {/* <h4 className="mt-2">Gym bag </h4> */}
-              <GymBag />
+              <WomenBag />
             </div>
             <div className="tab-pane fade" id="Office">
-              {/* <h4 className="mt-2">Office bag </h4> */}
               <OfficeBag />
             </div>
             <div className="tab-pane fade" id="women">
-              {/* <h4 className="mt-2">Women bag </h4> */}
-              <WomenBag />
+              <LaptopBag />
             </div>
             <div className="tab-pane fade" id="laptop">
-              {/* <h4 className="mt-2">Laptop bag </h4> */}
-              <LaptopBag />
+              <GymBag />
             </div>
           </div>
         </div>

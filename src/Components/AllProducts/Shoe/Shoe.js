@@ -22,7 +22,7 @@ const Shoe = () => {
                 className="nav-link active"
                 data-bs-toggle="tab"
               >
-                WOMEN SHOES
+                LADIES SHOES
               </Link>
             </li>
             <li className="nav-item">

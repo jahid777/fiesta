@@ -7,7 +7,7 @@ const MousepadCategories = () => {
   return (
     <main>
       <PopupModal />
-      <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid">
         {mousepads.map((singleMousepad) => (
           <div key={singleMousepad.id} className="col">
             <div
@@ -18,7 +18,7 @@ const MousepadCategories = () => {
               <img
                 style={{ height: "250px", width: "auto" }}
                 src={singleMousepad?.img}
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid homeProductImage"
                 alt="..."
               />
               <div className="card-body">

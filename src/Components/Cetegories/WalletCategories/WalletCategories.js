@@ -7,7 +7,7 @@ const WalletCategories = () => {
   return (
     <main>
       <PopupModal />
-      <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid">
         {Wallets.map((singleWallet) => (
           <div key={singleWallet.id} className="col">
             <div
@@ -16,9 +16,9 @@ const WalletCategories = () => {
               data-bs-target="#exampleModal"
             >
               <img
-                style={{ height: "250px", width: "auto" }}
+                style={{ height: "250px" }}
                 src={singleWallet?.img}
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid homeProductImage"
                 alt="..."
               />
               <div className="card-body">

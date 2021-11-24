@@ -7,7 +7,7 @@ const GymBag = () => {
   return (
     <main>
       <PopupModal />
-      <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid">
         {gyms.map((singleGym) => (
           <div key={singleGym.id} className="col">
             <div
@@ -17,9 +17,8 @@ const GymBag = () => {
             >
               <img
                 src={singleGym.img}
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid homeProductImage"
                 alt="..."
-                style={{ height: "250px", width: "auto" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Tk. {singleGym.price}</h5>

@@ -7,8 +7,8 @@ const WomenShoeCategories = () => {
   return (
     <main className="container-fluid">
       <PopupModal />
-      <h3>Womens Shoe Collections</h3>
-      <div className="row row-cols-1 row-cols-md-3 g-4">
+      <h3>Ladies Shoe Collections</h3>
+      <div className="row row-cols-1 row-cols-md-4 g-4">
         {womensShoe.map((singleWomensShoe) => (
           <div key={singleWomensShoe.id} className="col">
             <div
@@ -18,9 +18,8 @@ const WomenShoeCategories = () => {
             >
               <img
                 src={singleWomensShoe.img}
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid homeProductImage"
                 alt="..."
-                style={{ height: "250px", width: "auto" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Tk. {singleWomensShoe.price}</h5>

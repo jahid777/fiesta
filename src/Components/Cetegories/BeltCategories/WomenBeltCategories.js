@@ -7,7 +7,7 @@ const WomenBeltCategories = () => {
   return (
     <main>
       <PopupModal />
-      <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid">
         {womensBelt.map((singleWomensBelt) => (
           <div key={singleWomensBelt.id} className="col">
             <div
@@ -16,10 +16,10 @@ const WomenBeltCategories = () => {
               data-bs-target="#exampleModal"
             >
               <img
-                style={{ height: "250px", width: "auto" }}
                 src={singleWomensBelt.img}
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid homeProductImage"
                 alt="..."
+                style={{ height: "250px", width: "auto" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Tk. {singleWomensBelt.price}</h5>

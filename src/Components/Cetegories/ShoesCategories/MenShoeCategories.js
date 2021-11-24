@@ -8,7 +8,7 @@ const MenShoeCategories = () => {
     <main className="container-fluid">
       <MenPopModal />
       <h3>Mens Shoe Collections</h3>
-      <div className="row row-cols-1 row-cols-md-3 g-4">
+      <div className="row row-cols-1 row-cols-md-4 g-4">
         {menShoes.map((singleMensShoe) => (
           <div key={singleMensShoe.id} className="col">
             <div
@@ -18,9 +18,8 @@ const MenShoeCategories = () => {
             >
               <img
                 src={singleMensShoe.img}
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid homeProductImage"
                 alt="..."
-                style={{ height: "250px", width: "auto" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Tk. {singleMensShoe.price}</h5>

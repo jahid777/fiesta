@@ -7,7 +7,7 @@ const MenBeltCategories = () => {
   return (
     <main>
       <MenPopModal />
-      <div className="row row-cols-1 row-cols-md-3 g-4 container-fluid">
+      <div className="row row-cols-1 row-cols-md-4 g-4 container-fluid">
         {mensBelt.map((singleMensBelt) => (
           <div key={singleMensBelt.id} className="col">
             <div
@@ -16,10 +16,10 @@ const MenBeltCategories = () => {
               data-bs-target="#menModal"
             >
               <img
-                style={{ height: "250px", width: "auto" }}
                 src={singleMensBelt.img}
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid homeProductImage"
                 alt="..."
+                style={{ height: "250px" }}
               />
               <div className="card-body">
                 <h5 className="card-title">Tk. {singleMensBelt.price}</h5>
