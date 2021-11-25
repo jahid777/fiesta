@@ -23,11 +23,11 @@ const Navbar = () => {
                 Categories <i className="bi bi-chevron-down"></i>
               </Link>
               <div className="dropdown-content">
-                <Link to="/shoe">Shoe</Link>
                 <Link to="/bag">Bag</Link>
                 <Link to="/belt">Belt</Link>
                 <Link to="/wallet">Wallet</Link>
                 <Link to="/accessories">Accessories</Link>
+                <Link to="/shoe">Shoe</Link>
               </div>
             </li>
             <li>
