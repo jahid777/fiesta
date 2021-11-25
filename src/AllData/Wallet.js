@@ -51,7 +51,7 @@ export const WalletBoth = [
   {
     id: 7,
     ProductCode: "SW-802",
-    img: "https://i.imgur.com/W9eRiuV.jpg",
+    img: "https://i.imgur.com/ZyFGCgT.png",
     price: 700.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
@@ -59,7 +59,7 @@ export const WalletBoth = [
   {
     id: 8,
     ProductCode: "LW-901",
-    img: "https://i.imgur.com/PmGS0V0.jpg",
+    img: "https://i.imgur.com/1OlK0gy.png",
     price: 750.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
@@ -109,7 +109,7 @@ export const WalletBoth = [
   {
     id: 14,
     ProductCode: "PR 001",
-    img: "https://i.imgur.com/mio6z32.jpg",
+    img: "https://i.imgur.com/IdQ1P1Y.png",
     price: 1200.0,
     description:
       "Long Wallet with Multiple Card Holder & four Long Pockets for Holding Money, Mobile & Other Necessary Goods.",

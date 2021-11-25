@@ -171,7 +171,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1150.0,
-    img: "https://i.imgur.com/YKcPRxY.jpg",
+    img: "https://i.imgur.com/RBjXNGj.png",
     description: "Exclusive Ladies Hand Bag | 100% Leather | Very High Quality",
     color: "Black with Brown",
     size: " H x W - 10' x 14' ",
@@ -182,7 +182,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1150.0,
-    img: "https://i.imgur.com/698eOa6.jpg",
+    img: "https://i.imgur.com/bR7lJPH.png",
     description:
       "Exclusive Ladies Hand Bag | 100% Leather | Very High Quality ",
     color: "red with silver",
@@ -194,7 +194,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
-    img: "https://i.imgur.com/Y4N3JE2.png",
+    img: "https://i.imgur.com/bZG5QTt.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Blue",
@@ -206,7 +206,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
-    img: "https://i.imgur.com/CdA7NIp.png",
+    img: "https://i.imgur.com/b2HZjsj.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Off white",
@@ -218,7 +218,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
-    img: "https://i.imgur.com/SOqUdkg.png",
+    img: "https://i.imgur.com/e1r3w7p.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Black",
@@ -230,7 +230,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/uQcOT1O.png",
+    img: "https://i.imgur.com/uE2sNE2.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Pink",
@@ -242,7 +242,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/y95MSuv.png",
+    img: "https://i.imgur.com/LkiTPHX.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Off White",
@@ -254,7 +254,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/5wwd2iP.png",
+    img: "https://i.imgur.com/nzqTnSV.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Black",
@@ -266,7 +266,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/4QFmd3M.png",
+    img: "https://i.imgur.com/ZA8aatO.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Dark white",
@@ -278,7 +278,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/q0Nbpjp.png",
+    img: "https://i.imgur.com/VfrRQgQ.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "red black mixed",
@@ -290,7 +290,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/svJHONz.png",
+    img: "https://i.imgur.com/tSUnBja.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Black red mixed",
@@ -302,7 +302,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1550.0,
-    img: "https://i.imgur.com/gSfLCo4.jpg",
+    img: "https://i.imgur.com/EMGozkS.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Blue with Designer Fabrics",
@@ -314,7 +314,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1550.0,
-    img: "https://i.imgur.com/EhBvt7V.jpg",
+    img: "https://i.imgur.com/rCZVSuq.png",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Olive grey Designer Fabrics",
@@ -327,7 +327,7 @@ export const gymBag = [
   {
     id: 1,
     ProductCode: "BGG-8002",
-    img: "https://i.imgur.com/HAAcV5q.jpg",
+    img: "https://i.imgur.com/XgI9EGx.png",
     price: 1600.0,
     description:
       "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
@@ -338,7 +338,7 @@ export const gymBag = [
   {
     id: 2,
     ProductCode: "BGG-8002",
-    img: "https://i.imgur.com/uciBSbO.jpg",
+    img: "https://i.imgur.com/O4bZvPL.png",
     price: 1600.0,
     description:
       "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
@@ -350,9 +350,9 @@ export const gymBag = [
 //this is office bag
 export const officeBag = [
   {
-    id: 4,
+    id: 1,
     ProductCode: "BLB-605",
-    img: "https://i.imgur.com/79DfxCO.jpg",
+    img: "https://i.imgur.com/ro6GYk0.png",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -360,9 +360,9 @@ export const officeBag = [
     size: " H x W x L - 14' x 17.5' x 4' ",
   },
   {
-    id: 5,
+    id: 2,
     ProductCode: "BLB-607",
-    img: "https://i.imgur.com/1BXriI1.jpg",
+    img: "https://i.imgur.com/yu60nvW.png",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -370,9 +370,9 @@ export const officeBag = [
     size: " H x W x L - 17' x 10.5' x 6' ",
   },
   {
-    id: 6,
+    id: 3,
     ProductCode: "CRB-01",
-    img: "https://i.imgur.com/SPVQOzO.jpg",
+    img: "https://i.imgur.com/xvFwxPw.png",
     price: 1200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -380,9 +380,9 @@ export const officeBag = [
     size: "  H x W x L - 8' x 5' x2 ' ",
   },
   {
-    id: 7,
+    id: 4,
     ProductCode: "BLB-606",
-    img: "https://i.imgur.com/Xoop8WO.jpg",
+    img: "https://i.imgur.com/KosIOZQ.png",
     price: 5200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -390,9 +390,9 @@ export const officeBag = [
     size: "  H x W x L - 8' x 5' x2 ' ",
   },
   {
-    id: 8,
+    id: 5,
     ProductCode: "LPB-001",
-    img: "https://i.imgur.com/VR9PGgk.jpg",
+    img: "https://i.imgur.com/T3DZc3y.png",
     price: 2050.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -400,9 +400,9 @@ export const officeBag = [
     size: "  H x W x L - 12.5' x 10.5' x 4.5 ' ",
   },
   {
-    id: 9,
+    id: 6,
     ProductCode: "LPB-001",
-    img: "https://i.imgur.com/zMBZoT0.jpg",
+    img: "https://i.imgur.com/GQZtKjq.png",
     price: 2050.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -410,9 +410,9 @@ export const officeBag = [
     size: "  H x W x L - 12.5' x 10.5' x 4.5 ' ",
   },
   {
-    id: 10,
+    id: 7,
     ProductCode: "CRB-01",
-    img: "https://i.imgur.com/jRGOcHI.jpg",
+    img: "https://i.imgur.com/u0amtY6.png",
     price: 1200.0,
     description:
       "2 Part Multipurpose Bag | 100% Leather | In this pocket you can carry Mobile, Notepad & other essential goods.",
@@ -422,7 +422,7 @@ export const officeBag = [
   {
     id: 11,
     ProductCode: "LPB-0010",
-    img: "https://i.imgur.com/DLN00q9.jpg",
+    img: "https://i.imgur.com/Bc48dIP.png",
     price: 2700.0,
     description:
       "1 Part Multipurpose Backpack | 100% Leather | In this pocket you can carry Mobile, Notepad & other essential goods.",
@@ -432,7 +432,7 @@ export const officeBag = [
   {
     id: 12,
     ProductCode: "CAN-01",
-    img: "https://i.imgur.com/XJszyuD.jpg",
+    img: "https://i.imgur.com/MtFsdaa.png",
     price: 1950.0,
     description:
       "Exclusive Multipurpose Office CANVAS Backpack with | 100% Leather",
@@ -467,9 +467,9 @@ export const laptopBag = [
     size: " H x W x L - 13.5'x13'x5' ",
   },
   {
-    id: 4,
+    id: 3,
     ProductCode: "BLB-605",
-    img: "https://i.imgur.com/79DfxCO.jpg",
+    img: "https://i.imgur.com/ro6GYk0.png",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -477,9 +477,9 @@ export const laptopBag = [
     size: " H x W x L - 14' x 17.5' x 4' ",
   },
   {
-    id: 5,
+    id: 4,
     ProductCode: "BLB-606",
-    img: "https://i.imgur.com/1BXriI1.jpg",
+    img: "https://i.imgur.com/yu60nvW.png",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -487,9 +487,9 @@ export const laptopBag = [
     size: " H x W x L - 17' x 10.5' x 6' ",
   },
   {
-    id: 6,
+    id: 5,
     ProductCode: "CRB-01",
-    img: "https://i.imgur.com/SPVQOzO.jpg",
+    img: "https://i.imgur.com/xvFwxPw.png",
     price: 1200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -497,9 +497,9 @@ export const laptopBag = [
     size: "  H x W x L - 8' x 5' x2 ' ",
   },
   {
-    id: 7,
+    id: 6,
     ProductCode: "BLB-606",
-    img: "https://i.imgur.com/Xoop8WO.jpg",
+    img: "https://i.imgur.com/KosIOZQ.png",
     price: 5200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -507,9 +507,9 @@ export const laptopBag = [
     size: "  H x W x L - 8' x 5' x2 ' ",
   },
   {
-    id: 8,
+    id: 7,
     ProductCode: "LPB-001",
-    img: "https://i.imgur.com/VR9PGgk.jpg",
+    img: "https://i.imgur.com/T3DZc3y.png",
     price: 2050.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -517,9 +517,9 @@ export const laptopBag = [
     size: "  H x W x L - 12.5' x 10.5' x 4.5 ' ",
   },
   {
-    id: 9,
+    id: 8,
     ProductCode: "LPB-001",
-    img: "https://i.imgur.com/zMBZoT0.jpg",
+    img: "https://i.imgur.com/GQZtKjq.png",
     price: 2050.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",

@@ -20,7 +20,7 @@ const OfficeBag = () => {
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
               />
-              <div className="card-body">
+              <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleOfficeBag.price}</h5>
                 <p className="card-text">{singleOfficeBag.description}</p>
                 <p className="card-text">Color: {singleOfficeBag.color}</p>

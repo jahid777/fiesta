@@ -20,7 +20,7 @@ const LaptopBag = () => {
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
               />
-              <div className="card-body">
+              <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleLaptopBag.price}</h5>
                 <p className="card-text">{singleLaptopBag.description}</p>
                 <p className="card-text">Color: {singleLaptopBag.color}</p>

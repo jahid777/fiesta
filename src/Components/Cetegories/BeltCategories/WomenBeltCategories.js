@@ -19,9 +19,8 @@ const WomenBeltCategories = () => {
                 src={singleWomensBelt.img}
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
-                style={{ height: "250px", width: "auto" }}
               />
-              <div className="card-body">
+              <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleWomensBelt.price}</h5>
                 <p className="card-text">
                   <p className="card-text">{singleWomensBelt.description}</p>

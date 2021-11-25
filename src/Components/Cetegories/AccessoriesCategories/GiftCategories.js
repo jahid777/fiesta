@@ -12,13 +12,8 @@ const GiftCategories = () => {
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
-            <img
-              // style={{ height: "300px", width: "100%" }}
-              src=""
-              className="card-img-top img-fluid"
-              alt="..."
-            />
-            <div className="card-body">
+            <img src="" className="card-img-top img-fluid" alt="..." />
+            <div className="card-body homeProductDes">
               <h5 className="card-title">Card title</h5>
               <p className="card-text">
                 This is a wider card with supporting text below as a natural

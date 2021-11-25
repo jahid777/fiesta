@@ -9,11 +9,18 @@ import "../AllProducts.css";
 const AllProducts = () => {
   return (
     <div>
-      <img
-        style={{ height: "350px", width: "100%" }}
-        src="https://i.imgur.com/frLrNMd.jpg"
-        alt=""
-      />
+      <div id="carouselExampleIndicators" className="carousel slide">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img
+              src="https://i.imgur.com/DMOilvc.jpg"
+              className="d-block w-100"
+              alt="..."
+              height="350"
+            />
+          </div>
+        </div>
+      </div>
       <div className="container-fluid">
         <div className="m-4">
           <ul className="nav nav-tabs" id="myTab">

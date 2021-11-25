@@ -21,7 +21,7 @@ const WomenBag = () => {
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
               />
-              <div className="card-body">
+              <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleWomenBag?.price}</h5>
                 <p className="card-text">{singleWomenBag?.description}</p>
                 <p className="card-text">Color: {singleWomenBag?.color}</p>

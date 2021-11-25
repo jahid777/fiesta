@@ -40,7 +40,7 @@ const Bag = () => {
         </div>
         <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
           {bags.map((singleBag) => (
-            <div key={singleBag.id} className="col">
+            <div key={singleBag?.id} className="col">
               <div
                 className="card h-100 cardBody"
                 data-bs-toggle="modal"
@@ -52,22 +52,22 @@ const Bag = () => {
                   alt="..."
                   data-aos="fade-up"
                 />
-                <div className="card-body">
+                <div className="card-body homeProductDes">
                   <h5 className="card-title ProductPrice">
-                    Tk. {singleBag.price}
+                    Tk. {singleBag?.price}
                   </h5>
                   <p className="card-text ProductDescription">
-                    {singleBag.description}
+                    {singleBag?.description}
                   </p>
                   <p className="card-text ProductDescription">
-                    Color: {singleBag.color}
+                    Color: {singleBag?.color}
                   </p>
                   <p className="card-text ProductDescription">
-                    Size: {singleBag.size}
+                    Size: {singleBag?.size}
                   </p>
                 </div>
                 <div className="card-footer ProductModelNumber">
-                  <small>{singleBag.productCode}</small>
+                  <small>{singleBag?.productCode}</small>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Bag = () => {
         </div>
         <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
           {belts.map((singleBelt) => (
-            <div key={singleBelt.id} className="col">
+            <div key={singleBelt?.id} className="col">
               <div
                 className="card h-100 cardBody"
                 data-bs-toggle="modal"
@@ -99,15 +99,15 @@ const Bag = () => {
                   alt="..."
                   data-aos="fade-up"
                 />
-                <div className="card-body">
+                <div className="card-body homeProductDes">
                   <h5 className="card-title"> Tk. {singleBelt?.price}</h5>
                   <p className="card-text">{singleBelt?.description}</p>
                   <p className="card-text ProductDescription">
-                    Color: {singleBelt.color}
+                    Color: {singleBelt?.color}
                   </p>
                 </div>
                 <div className="card-footer ProductModelNumber">
-                  <small>{singleBelt.productCode}</small>
+                  <small>{singleBelt?.productCode}</small>
                 </div>
               </div>
             </div>
@@ -127,27 +127,27 @@ const Bag = () => {
         </div>
         <div className="row row-cols-1 row-cols-md-4 g-4 mt-2">
           {wallets.map((singleWallet) => (
-            <div key={singleWallet.id} className="col">
+            <div key={singleWallet?.id} className="col">
               <div
                 className="card h-100 cardBody"
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
                 <img
-                  src={singleWallet?.img}
                   className="card-img-top img-fluid homeProductImage"
+                  src={singleWallet?.img}
                   alt="..."
                   data-aos="fade-up"
                 />
-                <div className="card-body">
+                <div className="card-body homeProductDes">
                   <h5 className="card-title">Tk. {singleWallet?.price}</h5>
                   <p className="card-text">{singleWallet?.description}</p>
                   <p className="card-text ProductDescription">
-                    Color: {singleWallet.color}
+                    Color: {singleWallet?.color}
                   </p>
                 </div>
                 <div className="card-footer ProductModelNumber">
-                  <small>{singleWallet.productCode}</small>
+                  <small>{singleWallet?.productCode}</small>
                 </div>
               </div>
             </div>
@@ -181,19 +181,19 @@ const Bag = () => {
                   alt="..."
                   data-aos="fade-up"
                 />
-                <div className="card-body">
+                <div className="card-body homeProductDes">
                   <h5 className="card-title ProductPrice">
-                    TK. {singleShoes.price}
+                    TK. {singleShoes?.price}
                   </h5>
 
                   <p className="card-text ProductDescription">
-                    {singleShoes.description}
+                    {singleShoes?.description}
                   </p>
                   <p className="card-text ProductDescription">
-                    Color: {singleShoes.color}
+                    Color: {singleShoes?.color}
                   </p>
                   <p className="card-text ProductDescription">
-                    Size: {singleShoes.size}
+                    Size: {singleShoes?.size}
                   </p>
                 </div>
                 <div className="card-footer ProductModelNumber">
@@ -228,7 +228,7 @@ const Bag = () => {
                   alt="..."
                   data-aos="fade-up"
                 />
-                <div className="card-body">
+                <div className="card-body homeProductDes">
                   <h5 className="card-title">Tk. {singleAccessories?.price}</h5>
                   <p className="card-text">{singleAccessories?.description}</p>
                   <p className="card-text">Color: {singleAccessories?.color}</p>
