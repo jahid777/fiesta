@@ -26,8 +26,8 @@ const Navbar = () => {
                 <Link to="/bag">Bag</Link>
                 <Link to="/belt">Belt</Link>
                 <Link to="/wallet">Wallet</Link>
-                <Link to="/accessories">Accessories</Link>
                 <Link to="/shoe">Shoe</Link>
+                <Link to="/accessories">Accessories</Link>
               </div>
             </li>
             <li>
