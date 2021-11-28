@@ -18,7 +18,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
-    img: "https://i.imgur.com/ON15Qxt.jpg",
+    img: "https://i.imgur.com/iaUBHng.jpg",
     description:
       "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality",
     color: "Brown Designer Leather with Black Color Leather",
@@ -30,7 +30,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700.0,
-    img: "https://i.imgur.com/oif0I5M.jpg",
+    img: "https://i.imgur.com/g0izdFf.jpg",
     description:
       "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality",
     color: "Red Wine with Blue Leather",
@@ -42,7 +42,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1200.0,
-    img: "https://i.imgur.com/3gRmyXp.jpg",
+    img: "https://i.imgur.com/CxQOhuU.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather & Cotton Fabrics | Very High Quality",
     color: "red",
@@ -54,7 +54,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1790.0,
-    img: "https://i.imgur.com/dZIzFgP.jpg",
+    img: "https://i.imgur.com/F7tAe9d.jpg",
     description:
       "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality",
     color: "Blue with Designer Fabrics",
@@ -67,7 +67,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1790.0,
-    img: "https://i.imgur.com/5oAGVeV.jpg",
+    img: "https://i.imgur.com/S1sLAza.jpg",
     description:
       "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality ",
     color: "Black with Designer Fabrics",
@@ -79,7 +79,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1000.0,
-    img: "https://i.imgur.com/biQVbzw.jpg",
+    img: "https://i.imgur.com/4GHCXbl.jpg",
     description:
       "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality",
     color: "Blue Color Leather with Designer Fabrics",
@@ -103,7 +103,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1390.0,
-    img: "https://i.imgur.com/Zd7bZ5K.jpg",
+    img: "https://i.imgur.com/YUN5ofa.jpg",
     description: "Exclusive Ladies Hand Bag | 100% Leather | Very High Quality",
     color: "Black",
     size: " H x W x L - 13.5'x13'x5' ",
@@ -114,7 +114,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1390.0,
-    img: "https://i.imgur.com/iLVUluq.jpg",
+    img: "https://i.imgur.com/xA1tAf8.jpg",
     description: "Exclusive Ladies Hand Bag | 100% Leather | Very High Quality",
     color: "red",
     size: " H x W x L - 13.5'x13'x5' ",
@@ -136,7 +136,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1390.0,
-    img: "https://i.imgur.com/PJ7Y4t1.jpg",
+    img: "https://i.imgur.com/Rkz7Ap0.jpg",
     description: "Exclusive Ladies Hand Bag | 100% Leather | Very High Quality",
     color: "Olive",
     size: " H x W x L - 13.5'x13'x5' ",
@@ -147,7 +147,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1200.0,
-    img: "https://i.imgur.com/pxbGo05.jpg",
+    img: "https://i.imgur.com/Vd3P3Dq.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality",
     color: "Snow Drift",
@@ -171,7 +171,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1150.0,
-    img: "https://i.imgur.com/RBjXNGj.png",
+    img: "https://i.imgur.com/A4IKRqX.jpg",
     description: "Exclusive Ladies Hand Bag | 100% Leather | Very High Quality",
     color: "Black with Brown",
     size: " H x W - 10' x 14' ",
@@ -182,7 +182,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1150.0,
-    img: "https://i.imgur.com/bR7lJPH.png",
+    img: "https://i.imgur.com/76FGJOc.jpg",
     description:
       "Exclusive Ladies Hand Bag | 100% Leather | Very High Quality ",
     color: "red with silver",
@@ -194,7 +194,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
-    img: "https://i.imgur.com/bZG5QTt.png",
+    img: "https://i.imgur.com/xpgsr61.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Blue",
@@ -206,7 +206,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
-    img: "https://i.imgur.com/b2HZjsj.png",
+    img: "https://i.imgur.com/tWvu9WQ.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Off white",
@@ -218,7 +218,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
-    img: "https://i.imgur.com/e1r3w7p.png",
+    img: "https://i.imgur.com/V9MWUgA.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Black",
@@ -230,7 +230,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/uE2sNE2.png",
+    img: "https://i.imgur.com/ZFt59UW.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Pink",
@@ -242,7 +242,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/LkiTPHX.png",
+    img: "https://i.imgur.com/SjDHchE.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Off White",
@@ -254,7 +254,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/nzqTnSV.png",
+    img: "https://i.imgur.com/y75KLvy.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Black",
@@ -266,7 +266,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/ZA8aatO.png",
+    img: "https://i.imgur.com/GBLwkE6.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Dark white",
@@ -278,7 +278,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/VfrRQgQ.png",
+    img: "https://i.imgur.com/YDixfbL.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "red black mixed",
@@ -290,7 +290,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
-    img: "https://i.imgur.com/tSUnBja.png",
+    img: "https://i.imgur.com/qaVsyuP.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Black red mixed",
@@ -302,7 +302,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1550.0,
-    img: "https://i.imgur.com/EMGozkS.png",
+    img: "https://i.imgur.com/lk4tLQK.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Blue with Designer Fabrics",
@@ -314,7 +314,7 @@ export const womenBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 1550.0,
-    img: "https://i.imgur.com/rCZVSuq.png",
+    img: "https://i.imgur.com/jGJfbxJ.jpg",
     description:
       "Exclusive Ladies Party Bag | 100% Leather | Very High Quality ",
     color: "Olive grey Designer Fabrics",
@@ -327,7 +327,7 @@ export const gymBag = [
   {
     id: 1,
     ProductCode: "BGG-8002",
-    img: "https://i.imgur.com/XgI9EGx.png",
+    img: "https://i.imgur.com/PHEzxem.jpg",
     price: 1600.0,
     description:
       "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
@@ -338,7 +338,7 @@ export const gymBag = [
   {
     id: 2,
     ProductCode: "BGG-8002",
-    img: "https://i.imgur.com/O4bZvPL.png",
+    img: "https://i.imgur.com/yW9YJXT.jpg",
     price: 1600.0,
     description:
       "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
@@ -352,7 +352,7 @@ export const officeBag = [
   {
     id: 1,
     ProductCode: "BLB-605",
-    img: "https://i.imgur.com/ro6GYk0.png",
+    img: "https://i.imgur.com/0AzaB21.jpg",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -362,7 +362,7 @@ export const officeBag = [
   {
     id: 2,
     ProductCode: "BLB-607",
-    img: "https://i.imgur.com/yu60nvW.png",
+    img: "https://i.imgur.com/sjGoROT.jpg",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -372,7 +372,7 @@ export const officeBag = [
   {
     id: 3,
     ProductCode: "CRB-01",
-    img: "https://i.imgur.com/xvFwxPw.png",
+    img: "https://i.imgur.com/8cNaep1.jpg",
     price: 1200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -382,12 +382,12 @@ export const officeBag = [
   {
     id: 4,
     ProductCode: "BLB-606",
-    img: "https://i.imgur.com/KosIOZQ.png",
+    img: "https://i.imgur.com/S033CyB.jpg",
     price: 5200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
     color: "Black Leather",
-    size: "  H x W x L - 8' x 5' x2 ' ",
+    size: " H x W x L - 17' x 10.5' x 6' ",
   },
   {
     id: 5,
@@ -412,7 +412,7 @@ export const officeBag = [
   {
     id: 7,
     ProductCode: "CRB-01",
-    img: "https://i.imgur.com/u0amtY6.png",
+    img: "https://i.imgur.com/YYEeASm.jpg",
     price: 1200.0,
     description:
       "2 Part Multipurpose Bag | 100% Leather | In this pocket you can carry Mobile, Notepad & other essential goods.",
@@ -420,7 +420,7 @@ export const officeBag = [
     size: "  H x W x L - 8' x 5' x2 ' ",
   },
   {
-    id: 11,
+    id: 8,
     ProductCode: "LPB-0010",
     img: "https://i.imgur.com/Bc48dIP.png",
     price: 2700.0,
@@ -430,9 +430,9 @@ export const officeBag = [
     size: "  H x W x L - 14' x 10' x 6' ",
   },
   {
-    id: 12,
+    id: 9,
     ProductCode: "CAN-01",
-    img: "https://i.imgur.com/MtFsdaa.png",
+    img: "https://i.imgur.com/3QlZXFc.jpg",
     price: 1950.0,
     description:
       "Exclusive Multipurpose Office CANVAS Backpack with | 100% Leather",
@@ -469,7 +469,7 @@ export const laptopBag = [
   {
     id: 3,
     ProductCode: "BLB-605",
-    img: "https://i.imgur.com/ro6GYk0.png",
+    img: "https://i.imgur.com/0AzaB21.jpg",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -478,8 +478,8 @@ export const laptopBag = [
   },
   {
     id: 4,
-    ProductCode: "BLB-606",
-    img: "https://i.imgur.com/yu60nvW.png",
+    ProductCode: "BLB-607",
+    img: "https://i.imgur.com/sjGoROT.jpg",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -489,7 +489,7 @@ export const laptopBag = [
   {
     id: 5,
     ProductCode: "CRB-01",
-    img: "https://i.imgur.com/xvFwxPw.png",
+    img: "https://i.imgur.com/8cNaep1.jpg",
     price: 1200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -499,12 +499,12 @@ export const laptopBag = [
   {
     id: 6,
     ProductCode: "BLB-606",
-    img: "https://i.imgur.com/KosIOZQ.png",
+    img: "https://i.imgur.com/S033CyB.jpg",
     price: 5200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
     color: "Black Leather",
-    size: "  H x W x L - 8' x 5' x2 ' ",
+    size: "  H x W x L - 14' x 17.5' x 4' ",
   },
   {
     id: 7,

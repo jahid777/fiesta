@@ -35,6 +35,14 @@ const Bag = () => {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <img
+            src="https://i.imgur.com/uIA9fcN.jpg"
+            className="d-block w-100"
+            alt="..."
+            height="350"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
             src="https://i.imgur.com/n7ATGxe.jpg"
             className="d-block w-100"
             alt="..."
@@ -43,16 +51,7 @@ const Bag = () => {
         </div>
         <div className="carousel-item">
           <img
-            src="https://i.imgur.com/ENyAgPo.jpg"
-            className="d-block w-100"
-            alt="..."
-            height="350"
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            // src="https://i.imgur.com/n7ATGxe.jpg"
-            src="https://i.imgur.com/dxwZ8qX.jpg"
+            src="https://i.imgur.com/PdPAbgN.jpg"
             className="d-block w-100"
             alt="..."
             height="350"

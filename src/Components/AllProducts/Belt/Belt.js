@@ -9,7 +9,7 @@ const Belt = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://i.imgur.com/uIpLHSG.jpg"
+          src="https://i.imgur.com/yZIJ3ND.jpg"
           alt=""
         />
       </div>

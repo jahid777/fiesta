@@ -18,8 +18,8 @@ export const womenBelt = [
   },
   {
     id: 3,
-    ProductCode: "ELBJ-7005",
-    img: "https://i.imgur.com/Cs6NTJZ.jpg",
+    ProductCode: "ELBJ-7007",
+    img: "https://i.imgur.com/0e1bY3N.jpg",
     price: 700.0,
     description: "Exclusive Ladies Leather Belt | Very High Quality",
     color: "Green Leather",
@@ -87,7 +87,7 @@ export const menBelt = [
   {
     id: 2,
     ProductCode: "BMB-1112",
-    img: "https://i.imgur.com/XR2K3xU.jpg",
+    img: "https://i.imgur.com/CpchYBg.png",
     price: 650.0,
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Black Leather",
@@ -95,7 +95,7 @@ export const menBelt = [
   {
     id: 3,
     ProductCode: "BCSB-601",
-    img: "https://i.imgur.com/ROI4Pux.jpg",
+    img: "https://i.imgur.com/KJ4gBte.png",
     price: 700.0,
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Dark Brown & Light Brown Leather",
@@ -103,7 +103,7 @@ export const menBelt = [
   {
     id: 4,
     ProductCode: "CBMB-1111",
-    img: "https://i.imgur.com/aFLKqdb.jpg",
+    img: "https://i.imgur.com/egvQdEB.jpg",
     price: 700.0,
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Black & Chocolate Crocodile Printed Leather",
@@ -111,7 +111,7 @@ export const menBelt = [
   {
     id: 5,
     ProductCode: "HBB-1113",
-    img: "https://i.imgur.com/Kz9WXra.jpg",
+    img: "https://i.imgur.com/BXgv8vf.jpg",
     price: 750.0,
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Chocolate & Light Brown Leather",
@@ -119,7 +119,7 @@ export const menBelt = [
   {
     id: 6,
     ProductCode: "HBB-2001",
-    img: "https://i.imgur.com/GECBxy6.jpg",
+    img: "https://imgur.com/JDxninV.jpg",
     price: 700.0,
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Dark Brown & Light Brown Leather",
@@ -127,7 +127,7 @@ export const menBelt = [
   {
     id: 7,
     ProductCode: "MBS-800",
-    img: "https://i.imgur.com/lT4gkT2.png",
+    img: "https://i.imgur.com/MW2syjh.jpg",
     price: 750.0,
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Chocolate & Light Brown Leather",

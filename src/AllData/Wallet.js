@@ -3,7 +3,7 @@ export const WalletBoth = [
   {
     id: 1,
     ProductCode: "LGW-102",
-    img: "https://i.imgur.com/uKtV5Rf.jpg",
+    img: "https://i.imgur.com/ulP068T.jpg",
     price: 550.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown & Black Crocodile Printed Leather",
@@ -11,7 +11,7 @@ export const WalletBoth = [
   {
     id: 2,
     ProductCode: "LW-901",
-    img: "https://i.imgur.com/cDCWNJZ.jpg",
+    img: "https://i.imgur.com/1LP9iJf.jpg",
     price: 850.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
@@ -19,7 +19,7 @@ export const WalletBoth = [
   {
     id: 3,
     ProductCode: "LW-902",
-    img: "https://i.imgur.com/6NZKN7i.jpg",
+    img: "https://i.imgur.com/jlN7oUH.jpg",
     price: 750.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
@@ -27,7 +27,7 @@ export const WalletBoth = [
   {
     id: 4,
     ProductCode: "LW-905",
-    img: "https://i.imgur.com/6BMfa0S.jpg",
+    img: "https://i.imgur.com/LJ6o6et.jpg",
     price: 825.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Coffee Leather",
@@ -35,7 +35,7 @@ export const WalletBoth = [
   {
     id: 5,
     ProductCode: "LW-903",
-    img: "https://i.imgur.com/v0mzDwR.jpg",
+    img: "https://i.imgur.com/shAbmEC.jpg",
     price: 825.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Blue Leather",
@@ -43,7 +43,7 @@ export const WalletBoth = [
   {
     id: 6,
     ProductCode: "WL-01",
-    img: "https://i.imgur.com/ADy6Lpe.jpg",
+    img: "https://i.imgur.com/kAGMXZ0.jpg",
     price: 700.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
@@ -59,7 +59,7 @@ export const WalletBoth = [
   {
     id: 8,
     ProductCode: "LW-901",
-    img: "https://i.imgur.com/1OlK0gy.png",
+    img: "https://i.imgur.com/tnqAXSc.jpg",
     price: 750.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
@@ -67,7 +67,7 @@ export const WalletBoth = [
   {
     id: 9,
     ProductCode: "WL-01",
-    img: "https://i.imgur.com/YhtzRe5.jpg",
+    img: "https://i.imgur.com/oR3Z1kO.jpg",
     price: 700.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
@@ -75,7 +75,7 @@ export const WalletBoth = [
   {
     id: 10,
     ProductCode: "PC-01",
-    img: "https://i.imgur.com/tA3Puee.jpg",
+    img: "https://i.imgur.com/eurNJMp.jpg",
     price: 300.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
@@ -83,7 +83,7 @@ export const WalletBoth = [
   {
     id: 11,
     ProductCode: "PC-01",
-    img: "https://i.imgur.com/J6xNNtV.jpg",
+    img: "https://i.imgur.com/ZTplkpo.jpg",
     price: 280.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
@@ -91,7 +91,7 @@ export const WalletBoth = [
   {
     id: 12,
     ProductCode: "LW-18",
-    img: "https://i.imgur.com/hjDVpjC.jpg",
+    img: "https://i.imgur.com/G2nIF2y.jpg",
     price: 950.0,
     description:
       "Multiple Card Holders & One Long Pockets for Holding Money & Other Necessary Goods.",
@@ -100,7 +100,7 @@ export const WalletBoth = [
   {
     id: 13,
     ProductCode: "LW-19",
-    img: "https://i.imgur.com/vKx0zHT.jpg",
+    img: "https://i.imgur.com/eVev70s.jpg",
     price: 950.0,
     description:
       "Multiple Card Holders & One Long Pockets for Holding Money & Other Necessary Goods.",
@@ -109,7 +109,7 @@ export const WalletBoth = [
   {
     id: 14,
     ProductCode: "PR 001",
-    img: "https://i.imgur.com/IdQ1P1Y.png",
+    img: "https://i.imgur.com/DYoj9wd.jpg",
     price: 1200.0,
     description:
       "Long Wallet with Multiple Card Holder & four Long Pockets for Holding Money, Mobile & Other Necessary Goods.",
@@ -118,7 +118,7 @@ export const WalletBoth = [
   {
     id: 15,
     ProductCode: "LW-20",
-    img: "https://i.imgur.com/GXEUWgG.png",
+    img: "https://i.imgur.com/D7HISK5.jpg",
     price: 900.0,
     description:
       "Multiple Card Holders key ring holder & many Pockets for Holding Money & Other Necessary Goods.",
