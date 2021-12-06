@@ -13,7 +13,7 @@ const AllProducts = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="https://i.imgur.com/DMOilvc.jpg"
+              src="https://i.imgur.com/cVsDOY6.jpg"
               className="d-block w-100"
               alt="..."
               height="350"
