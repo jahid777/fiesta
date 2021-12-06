@@ -13,7 +13,7 @@ const Belt = () => {
           alt=""
         />
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid mt-5">
         <div className="m-4">
           <ul className="nav nav-tabs" id="myTab">
             <li className="nav-item">

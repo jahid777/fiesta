@@ -67,7 +67,7 @@ const Bag = () => {
                   </p>
                 </div>
                 <div className="card-footer ProductModelNumber">
-                  <small>{singleBag?.productCode}</small>
+                  <small>{singleBag?.ProductCode}</small>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Bag = () => {
                   </p>
                 </div>
                 <div className="card-footer ProductModelNumber">
-                  <small>{singleBelt?.productCode}</small>
+                  <small>{singleBelt?.ProductCode}</small>
                 </div>
               </div>
             </div>
@@ -147,7 +147,7 @@ const Bag = () => {
                   </p>
                 </div>
                 <div className="card-footer ProductModelNumber">
-                  <small>{singleWallet?.productCode}</small>
+                  <small>{singleWallet?.ProductCode}</small>
                 </div>
               </div>
             </div>
@@ -234,7 +234,7 @@ const Bag = () => {
                   <p className="card-text">Color: {singleAccessories?.color}</p>
                 </div>
                 <div className="card-footer ProductModelNumber">
-                  <small>{singleAccessories?.productCode}</small>
+                  <small>{singleAccessories?.ProductCode}</small>
                 </div>
               </div>
             </div>

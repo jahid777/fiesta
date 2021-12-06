@@ -124,4 +124,13 @@ export const WalletBoth = [
       "Multiple Card Holders key ring holder & many Pockets for Holding Money & Other Necessary Goods.",
     color: "Black Leather",
   },
+  {
+    id: 16,
+    ProductCode: "LW-20",
+    img: "https://i.imgur.com/Fk6m5lE.jpg",
+    price: 900.0,
+    description:
+      "Multiple Card Holders key ring holder & many Pockets for Holding Money & Other Necessary Goods.",
+    color: "Grey Leather",
+  },
 ];

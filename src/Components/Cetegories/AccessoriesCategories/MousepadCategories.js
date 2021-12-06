@@ -30,7 +30,7 @@ const MousepadCategories = () => {
                 </p>
               </div>
               <div className="card-footer ProductModelNumber">
-                <small>{singleMousepad.productCode}</small>
+                <small>{singleMousepad.ProductCode}</small>
               </div>
             </div>
           </div>

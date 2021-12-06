@@ -1,7 +1,7 @@
 export const mousepadData = [
   {
     id: 1,
-    productCode: "MP-001",
+    ProductCode: "MP-001",
     category: "mouse pad",
     price: 250,
     img: "https://i.imgur.com/vMtSajo.png",
@@ -12,7 +12,7 @@ export const mousepadData = [
   },
   {
     id: 2,
-    productCode: "MP-002",
+    ProductCode: "MP-002",
     category: "mouse pad",
     price: 150,
     img: "https://i.imgur.com/vMtSajo.png",
@@ -23,7 +23,7 @@ export const mousepadData = [
   },
   {
     id: 3,
-    productCode: "MP-003",
+    ProductCode: "MP-003",
     category: "mouse pad",
     price: 100,
     img: "https://i.imgur.com/TK0LPNp.jpg",
@@ -32,7 +32,7 @@ export const mousepadData = [
   },
   {
     id: 4,
-    productCode: "MP-004",
+    ProductCode: "MP-004",
     category: "mouse pad",
     price: 100,
     img: "https://i.imgur.com/gyZ9drf.jpg",

@@ -12,18 +12,9 @@ const Accessories = () => {
           alt=""
         />
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid mt-5">
         <div className="m-4">
           <ul className="nav nav-tabs" id="myTab">
-            {/* <li className="nav-item">
-              <Link
-                to="#giftItem"
-                className="nav-link active"
-                data-bs-toggle="tab"
-              >
-                GIFT ITEM
-              </Link>
-            </li> */}
             <li className="nav-item">
               <Link
                 to="#mousepad"
@@ -35,10 +26,6 @@ const Accessories = () => {
             </li>
           </ul>
           <div className="tab-content mt-5">
-            {/* <div className="tab-pane fade show active" id="giftItem">
-              <h4 className="mt-2">Gift Item Collection</h4>
-              <GiftCategories />
-            </div> */}
             <div className="tab-pane fade show active" id="mousepad">
               <MousepadCategories />
             </div>

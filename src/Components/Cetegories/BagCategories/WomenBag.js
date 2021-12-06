@@ -27,7 +27,7 @@ const WomenBag = () => {
                 <p className="card-text">Color: {singleWomenBag?.color}</p>
               </div>
               <div className="card-footer ProductModelNumber">
-                <small>{singleWomenBag.productCode}</small>
+                <small>{singleWomenBag.ProductCode}</small>
               </div>
             </div>
           </div>

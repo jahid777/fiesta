@@ -1,6 +1,17 @@
 #myTab {
   border-bottom: 1px solid var(--blue);
 }
+#myTab li {
+  border: 1px solid var(--blue);
+  border-bottom: 0;
+}
+#myTab li .active {
+  background-color: var(--blue);
+  color: #fff !important;
+}
+#myTab li:first-child {
+  border-bottom: none;
+}
 .nav-link:link {
   color: var(--black);
   font-weight: bold;

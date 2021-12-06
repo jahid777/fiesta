@@ -2,7 +2,7 @@
 export const womenBag = [
   {
     id: 1,
-    productCode: "FSB-002",
+    ProductCode: "FSB-002",
     category: "bag",
     subCategory: "officeBag",
     price: 1000.0,
@@ -14,7 +14,7 @@ export const womenBag = [
   },
   {
     id: 2,
-    productCode: "LCB-0002J",
+    ProductCode: "LCB-0002J",
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
@@ -26,7 +26,7 @@ export const womenBag = [
   },
   {
     id: 3,
-    productCode: "BBG-7030",
+    ProductCode: "BBG-7030",
     category: "bag",
     subCategory: "officeBag",
     price: 2700.0,
@@ -38,7 +38,7 @@ export const womenBag = [
   },
   {
     id: 4,
-    productCode: "VCB-603",
+    ProductCode: "VCB-603",
     category: "bag",
     subCategory: "officeBag",
     price: 1200.0,
@@ -50,7 +50,7 @@ export const womenBag = [
   },
   {
     id: 5,
-    productCode: "LTB-004",
+    ProductCode: "LTB-004",
     category: "bag",
     subCategory: "officeBag",
     price: 1790.0,
@@ -63,7 +63,7 @@ export const womenBag = [
 
   {
     id: 6,
-    productCode: "LTB-004",
+    ProductCode: "LTB-004",
     category: "bag",
     subCategory: "officeBag",
     price: 1790.0,
@@ -75,7 +75,7 @@ export const womenBag = [
   },
   {
     id: 7,
-    productCode: "FSB-002",
+    ProductCode: "FSB-002",
     category: "bag",
     subCategory: "officeBag",
     price: 1000.0,
@@ -87,7 +87,7 @@ export const womenBag = [
   },
   {
     id: 8,
-    productCode: "LCB-0002",
+    ProductCode: "LCB-0002",
     category: "bag",
     subCategory: "officeBag",
     price: 1650.0,
@@ -99,7 +99,7 @@ export const womenBag = [
   },
   {
     id: 9,
-    productCode: "PB-006",
+    ProductCode: "PB-006",
     category: "bag",
     subCategory: "officeBag",
     price: 1390.0,
@@ -110,7 +110,7 @@ export const womenBag = [
   },
   {
     id: 10,
-    productCode: "PB-006",
+    ProductCode: "PB-006",
     category: "bag",
     subCategory: "officeBag",
     price: 1390.0,
@@ -121,7 +121,7 @@ export const womenBag = [
   },
   {
     id: 11,
-    productCode: "PB-006",
+    ProductCode: "PB-006",
     category: "bag",
     subCategory: "officeBag",
     price: 1390.0,
@@ -132,7 +132,7 @@ export const womenBag = [
   },
   {
     id: 12,
-    productCode: "PB-006",
+    ProductCode: "PB-006",
     category: "bag",
     subCategory: "officeBag",
     price: 1390.0,
@@ -143,7 +143,7 @@ export const womenBag = [
   },
   {
     id: 13,
-    productCode: "YCB-602",
+    ProductCode: "YCB-602",
     category: "bag",
     subCategory: "officeBag",
     price: 1200.0,
@@ -155,7 +155,7 @@ export const womenBag = [
   },
   {
     id: 14,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 1150.0,
@@ -167,7 +167,7 @@ export const womenBag = [
   },
   {
     id: 15,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 1150.0,
@@ -178,7 +178,7 @@ export const womenBag = [
   },
   {
     id: 16,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 1150.0,
@@ -190,7 +190,7 @@ export const womenBag = [
   },
   {
     id: 17,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
@@ -202,7 +202,7 @@ export const womenBag = [
   },
   {
     id: 18,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
@@ -214,7 +214,7 @@ export const womenBag = [
   },
   {
     id: 19,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
@@ -226,7 +226,7 @@ export const womenBag = [
   },
   {
     id: 20,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
@@ -238,7 +238,7 @@ export const womenBag = [
   },
   {
     id: 21,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
@@ -250,7 +250,7 @@ export const womenBag = [
   },
   {
     id: 22,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
@@ -262,7 +262,7 @@ export const womenBag = [
   },
   {
     id: 23,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
@@ -274,7 +274,7 @@ export const womenBag = [
   },
   {
     id: 24,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
@@ -286,7 +286,7 @@ export const womenBag = [
   },
   {
     id: 25,
-    productCode: "RBG-102",
+    ProductCode: "RBG-102",
     category: "bag",
     subCategory: "officeBag",
     price: 2000.0,
@@ -298,7 +298,7 @@ export const womenBag = [
   },
   {
     id: 26,
-    productCode: "LFR 001",
+    ProductCode: "LFR 001",
     category: "bag",
     subCategory: "officeBag",
     price: 1550.0,
@@ -310,7 +310,7 @@ export const womenBag = [
   },
   {
     id: 27,
-    productCode: "LFR 001",
+    ProductCode: "LFR 001",
     category: "bag",
     subCategory: "officeBag",
     price: 1550.0,
@@ -434,10 +434,19 @@ export const officeBag = [
     ProductCode: "CAN-01",
     img: "https://i.imgur.com/3QlZXFc.jpg",
     price: 1950.0,
-    description:
-      "Exclusive Multipurpose Office CANVAS Backpack with | 100% Leather",
+    description: "Exclusive Multipurpose Office CANVAS Backpack | 100% Leather",
     color: "Black Canvas & Leather",
     size: "  H x W x D - 18' x 12' x 6' ",
+  },
+  {
+    id: 10,
+    ProductCode: "LPS-001",
+    img: "https://i.imgur.com/oXxCcXN.jpg",
+    price: 1500.0,
+    description:
+      "Exclusive Multipurpose Office MiNi Backpack | 100% Leather | In this pocket you can carry Mobile, Notepad & makeup notebook and other essential goods",
+    color: "Black Canvas & Leather",
+    size: "  H x W x L - 10' x 6' x1.5' ",
   },
 ];
 // this is laptop bag
@@ -525,5 +534,27 @@ export const laptopBag = [
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
     color: "Medium Dark Brown",
     size: "  H x W x L - 12.5' x 10.5' x 4.5 ' ",
+  },
+  {
+    id: 9,
+    ProductCode: "LPS-003",
+    category: "bag",
+    price: 2500.0,
+    img: "https://i.imgur.com/oXxCcXN.jpg",
+    description:
+      "Exclusive Multipurpose BackPack and laptop cover | 100% Leather | Very High Quality",
+    color: "Black",
+    size: " H x W x L - 16' x 11' x1.5' ",
+  },
+  {
+    id: 10,
+    ProductCode: "LPS-002",
+    category: "bag",
+    price: 2200.0,
+    img: "https://i.imgur.com/mY78vOJ.jpg",
+    description:
+      "Exclusive Multipurpose BackPack and laptop cover | 100% Leather | Very High Quality",
+    color: "Black",
+    size: " H x W x L - 15' x 11' x1.5' ",
   },
 ];

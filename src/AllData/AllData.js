@@ -3,7 +3,7 @@ export const shoesData = [
   // women shoes
   {
     id: 1,
-    productCode: "BLS-106",
+    ProductCode: "BLS-106",
     category: "shoe",
     subCategory: "ladiesShoe",
     price: 1350.0,
@@ -15,7 +15,7 @@ export const shoesData = [
   },
   {
     id: 2,
-    productCode: "CSS-103",
+    ProductCode: "CSS-103",
     category: "bag",
     subCategory: "officeBag",
     price: 1500.0,
@@ -28,7 +28,7 @@ export const shoesData = [
   // men shoes
   {
     id: 3,
-    productCode: "JSB-403",
+    ProductCode: "JSB-403",
     category: "bag",
     subCategory: "officeBag",
     price: 1950.0,
@@ -40,7 +40,7 @@ export const shoesData = [
   },
   {
     id: 4,
-    productCode: "JSB-401",
+    ProductCode: "JSB-401",
     category: "bag",
     subCategory: "officeBag",
     price: 800.0,
@@ -57,7 +57,7 @@ export const bagsData = [
   // women Bag
   {
     id: 1,
-    productCode: "FSB-002",
+    ProductCode: "FSB-002",
     category: "bag",
     subCategory: "officeBag",
     price: 2050.0,
@@ -69,7 +69,7 @@ export const bagsData = [
   },
   {
     id: 2,
-    productCode: "LCB-0002J",
+    ProductCode: "LCB-0002J",
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
@@ -82,26 +82,24 @@ export const bagsData = [
   // office Bag
   {
     id: 3,
-    productCode: "YCB-602",
-    category: "bag",
-    subCategory: "officeBag",
-    price: 1200.0,
-    img: "https://i.imgur.com/Vd3P3Dq.jpg",
+    ProductCode: "CAN-01",
+    img: "https://i.imgur.com/3QlZXFc.jpg",
+    price: 1950.0,
     description:
-      "Exclusive Ladies Party Bag | 100% Leather | Very High Quality",
-    color: "Snow Drift",
-    size: " H x W x L - 7' x 8' x 4' ",
+      "Exclusive Multipurpose Office CANVAS Backpack with | 100% Leather",
+    color: "Black Canvas & Leather",
+    size: "  H x W x D - 18' x 12' x 6' ",
   },
   {
     id: 4,
-    productCode: "BGG-8002",
+    ProductCode: "LPS-003",
     category: "bag",
-    price: 1600.0,
-    img: "https://i.imgur.com/PHEzxem.jpg",
+    price: 2500.0,
+    img: "https://i.imgur.com/oXxCcXN.jpg",
     description:
-      "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
-    color: "Red Leather with Maroon Fabrics",
-    size: " H x W - 14' x 18' ",
+      "Exclusive Multipurpose BackPack and laptop cover | 100% Leather | Very High Quality",
+    color: "Black",
+    size: " H x W x L - 16' x 11' x1.5' ",
   },
 ];
 
@@ -110,7 +108,7 @@ export const beltsData = [
   // women Belt
   {
     id: 1,
-    productCode: "ELBJ-7005",
+    ProductCode: "ELBJ-7005",
     category: "bag",
     price: 700.0,
     img: "https://i.imgur.com/95kyWCo.jpg",
@@ -119,7 +117,7 @@ export const beltsData = [
   },
   {
     id: 2,
-    productCode: "ELBJ-7007",
+    ProductCode: "ELBJ-7007",
     category: "bag",
     price: 700.0,
     img: "https://i.imgur.com/0e1bY3N.jpg",
@@ -129,7 +127,7 @@ export const beltsData = [
   // men Belt
   {
     id: 3,
-    productCode: "BMB-1112",
+    ProductCode: "BMB-1112",
     category: "men belt",
     price: 650.0,
     img: "https://i.imgur.com/CpchYBg.png",
@@ -138,7 +136,7 @@ export const beltsData = [
   },
   {
     id: 4,
-    productCode: "BCSB-601",
+    ProductCode: "BCSB-601",
     category: "men belt",
     price: 700.0,
     img: "https://i.imgur.com/KJ4gBte.png",
@@ -152,14 +150,14 @@ export const anotherBagsData = [
   // office Bag
   {
     id: 1,
-    productCode: "7001",
+    ProductCode: "7001",
     category: "bag",
     price: 2700,
     img: "https://i.imgur.com/baKnYHC.jpg",
   },
   {
     id: 1,
-    productCode: "7001",
+    ProductCode: "7001",
     category: "bag",
     price: 2700,
     img: "https://i.imgur.com/0iCj7UJ.jpg",
@@ -167,14 +165,14 @@ export const anotherBagsData = [
   // Laptop bag
   {
     id: 3,
-    productCode: "7001",
+    ProductCode: "7001",
     category: "bag",
     price: 2700,
     img: "https://i.imgur.com/0BEFqXM.jpg",
   },
   {
     id: 4,
-    productCode: "7001",
+    ProductCode: "7001",
     category: "bag",
     price: 2700,
     img: "https://i.imgur.com/EccmH3A.jpg",
@@ -186,7 +184,7 @@ export const accessoriesData = [
   // Gift Item
   {
     id: 1,
-    productCode: "MP-001",
+    ProductCode: "MP-001",
     category: "mouse pad",
     price: 250,
     img: "https://i.imgur.com/vMtSajo.png",
@@ -197,7 +195,7 @@ export const accessoriesData = [
   },
   {
     id: 2,
-    productCode: "MP-002",
+    ProductCode: "MP-002",
     category: "mouse pad",
     price: 150,
     img: "https://i.imgur.com/vMtSajo.png",
@@ -209,7 +207,7 @@ export const accessoriesData = [
   // mouse pad
   {
     id: 3,
-    productCode: "MP-003",
+    ProductCode: "MP-003",
     category: "mouse pad",
     price: 100,
     img: "https://i.imgur.com/TK0LPNp.jpg",
@@ -218,7 +216,7 @@ export const accessoriesData = [
   },
   {
     id: 4,
-    productCode: "MP-004",
+    ProductCode: "MP-004",
     category: "mouse pad",
     price: 100,
     img: "https://i.imgur.com/gyZ9drf.jpg",
@@ -232,7 +230,7 @@ export const walletsData = [
   // women Wallet
   {
     id: 1,
-    productCode: "LW-903",
+    ProductCode: "LW-903",
     category: "bag",
     price: 825.0,
     img: "https://i.imgur.com/shAbmEC.jpg",
@@ -241,7 +239,7 @@ export const walletsData = [
   },
   {
     id: 2,
-    productCode: "LGW-102",
+    ProductCode: "LGW-102",
     category: "bag",
     price: 550.0,
     img: "https://i.imgur.com/ulP068T.jpg",
@@ -251,7 +249,7 @@ export const walletsData = [
   // men Wallet
   {
     id: 3,
-    productCode: "LW-901",
+    ProductCode: "LW-901",
     category: "bag",
     price: 750.0,
     img: "https://i.imgur.com/GFOimBN.jpg",
@@ -260,7 +258,7 @@ export const walletsData = [
   },
   {
     id: 4,
-    productCode: "LW-902",
+    ProductCode: "LW-902",
     category: "bag",
     price: 750.0,
     img: "https://i.imgur.com/jlN7oUH.jpg",
