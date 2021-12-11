@@ -31,7 +31,7 @@ const Shoe = () => {
                 className="nav-link"
                 data-bs-toggle="tab"
               >
-                MEN SHOES
+                GENTS SHOES
               </Link>
             </li>
           </ul>

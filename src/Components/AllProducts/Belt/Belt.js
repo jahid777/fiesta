@@ -22,12 +22,12 @@ const Belt = () => {
                 className="nav-link active"
                 data-bs-toggle="tab"
               >
-                WOMEN BELT
+                LADIES BELT
               </Link>
             </li>
             <li className="nav-item">
               <Link to="#menBelt" className="nav-link" data-bs-toggle="tab">
-                MEN BELT
+                GENTS BELT
               </Link>
             </li>
           </ul>

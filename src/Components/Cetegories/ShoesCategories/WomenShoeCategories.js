@@ -7,7 +7,7 @@ const WomenShoeCategories = () => {
   return (
     <main className="container-fluid">
       <PopupModal />
-      <h3>Ladies Shoe Collections</h3>
+
       <div className="row row-cols-1 row-cols-md-4 g-4">
         {womensShoe.map((singleWomensShoe) => (
           <div key={singleWomensShoe?.id} className="col">

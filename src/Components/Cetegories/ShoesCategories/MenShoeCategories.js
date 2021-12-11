@@ -7,9 +7,8 @@ const MenShoeCategories = () => {
   return (
     <main className="container-fluid">
       <MenPopModal />
-      <h3>Mens Shoe Collections</h3>
       <div className="row row-cols-1 row-cols-md-4 g-4">
-        {menShoes.map((singleMensShoe) => (
+        {mensShoes.map((singleMensShoe) => (
           <div key={singleMensShoe?.id} className="col">
             <div
               className="card h-100 cardBody"
