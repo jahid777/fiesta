@@ -8,7 +8,7 @@ const Accessories = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://i.imgur.com/aRFy7KK.jpg"
+          src="https://i.ibb.co/FbzFGfH/accessories-Banner.webp"
           alt=""
         />
       </div>

@@ -9,7 +9,7 @@ const Wallet = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://i.imgur.com/saMitQk.jpg"
+          src="https://i.ibb.co/phkrMZP/wallet-Banner.webp"
           alt=""
         />
       </div>

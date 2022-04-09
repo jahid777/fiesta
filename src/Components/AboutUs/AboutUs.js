@@ -11,8 +11,7 @@ const AboutUs = () => {
     <div style={{ overflowX: "hidden" }}>
       <img
         className="about_banner"
-        // src="https://i.imgur.com/HPIA7RP.png"
-        src="https://i.imgur.com/R6izuMg.png"
+        src="https://i.ibb.co/sVRs4HW/about-Banner.webp"
         alt=""
       />
       <section className="container">

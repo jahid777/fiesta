@@ -9,7 +9,7 @@ const Shoe = () => {
       <div>
         <img
           style={{ height: "350px", width: "100%" }}
-          src="https://i.imgur.com/u63K4gf.jpg"
+          src="https://i.ibb.co/7pwNVnm/shoe-Banner.webp"
           alt=""
         />
       </div>
