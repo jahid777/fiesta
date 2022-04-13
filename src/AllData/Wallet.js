@@ -3,7 +3,7 @@ export const WalletBoth = [
   {
     id: 1,
     ProductCode: "LGW-102",
-    img: "https://i.imgur.com/ulP068T.jpg",
+    img: "https://i.ibb.co/xq7V58Z/LGW-102.webp",
     price: 550.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown & Black Crocodile Printed Leather",
@@ -11,7 +11,7 @@ export const WalletBoth = [
   {
     id: 2,
     ProductCode: "LW-901",
-    img: "https://i.imgur.com/1LP9iJf.jpg",
+    img: "https://i.ibb.co/VQHDrhm/LW-901.webp",
     price: 850.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
@@ -19,7 +19,7 @@ export const WalletBoth = [
   {
     id: 3,
     ProductCode: "LW-902",
-    img: "https://i.imgur.com/jlN7oUH.jpg",
+    img: "https://i.ibb.co/LJY55Dr/LW-902.webp",
     price: 750.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
@@ -27,7 +27,7 @@ export const WalletBoth = [
   {
     id: 4,
     ProductCode: "LW-905",
-    img: "https://i.imgur.com/LJ6o6et.jpg",
+    img: "https://i.ibb.co/BnfhJtD/LW-905.webp",
     price: 825.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Coffee Leather",
@@ -35,7 +35,7 @@ export const WalletBoth = [
   {
     id: 5,
     ProductCode: "LW-903",
-    img: "https://i.imgur.com/shAbmEC.jpg",
+    img: "https://i.ibb.co/DbqDWDP/LW-903.webp",
     price: 825.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Blue Leather",
@@ -43,7 +43,7 @@ export const WalletBoth = [
   {
     id: 6,
     ProductCode: "WL-01",
-    img: "https://i.imgur.com/kAGMXZ0.jpg",
+    img: "https://i.ibb.co/HnX8291/WL-01.webp",
     price: 700.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
@@ -51,23 +51,23 @@ export const WalletBoth = [
   {
     id: 7,
     ProductCode: "SW-802",
-    img: "https://i.imgur.com/ZyFGCgT.png",
+    img: "https://i.ibb.co/pdq6qcm/SW-802.webp",
     price: 700.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
   },
   {
     id: 8,
-    ProductCode: "LW-901",
-    img: "https://i.imgur.com/tnqAXSc.jpg",
+    ProductCode: "LW-904",
+    img: "https://i.ibb.co/BykW5cv/LW-904.webp",
     price: 750.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
   },
   {
     id: 9,
-    ProductCode: "WL-01",
-    img: "https://i.imgur.com/oR3Z1kO.jpg",
+    ProductCode: "WL-02",
+    img: "https://i.ibb.co/Tv623y2/WL-02.webp",
     price: 700.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
@@ -75,15 +75,15 @@ export const WalletBoth = [
   {
     id: 10,
     ProductCode: "PC-01",
-    img: "https://i.imgur.com/eurNJMp.jpg",
+    img: "https://i.ibb.co/MgP6Gqh/PC-01.webp",
     price: 300.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
   },
   {
     id: 11,
-    ProductCode: "PC-01",
-    img: "https://i.imgur.com/ZTplkpo.jpg",
+    ProductCode: "PC-02",
+    img: "https://i.ibb.co/tzCP4n9/PC-02.webp",
     price: 280.0,
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
@@ -91,7 +91,7 @@ export const WalletBoth = [
   {
     id: 12,
     ProductCode: "LW-18",
-    img: "https://i.imgur.com/G2nIF2y.jpg",
+    img: "https://i.ibb.co/18VLLvL/LW-18.webp",
     price: 950.0,
     description:
       "Multiple Card Holders & One Long Pockets for Holding Money & Other Necessary Goods.",
@@ -100,7 +100,7 @@ export const WalletBoth = [
   {
     id: 13,
     ProductCode: "LW-19",
-    img: "https://i.imgur.com/eVev70s.jpg",
+    img: "https://i.ibb.co/cyFbrb1/LW-19.webp",
     price: 950.0,
     description:
       "Multiple Card Holders & One Long Pockets for Holding Money & Other Necessary Goods.",
@@ -108,8 +108,8 @@ export const WalletBoth = [
   },
   {
     id: 14,
-    ProductCode: "PR 001",
-    img: "https://i.imgur.com/DYoj9wd.jpg",
+    ProductCode: "PR-001",
+    img: "https://i.ibb.co/1Qk22NK/PR-001.webp",
     price: 1200.0,
     description:
       "Long Wallet with Multiple Card Holder & four Long Pockets for Holding Money, Mobile & Other Necessary Goods.",
@@ -118,7 +118,7 @@ export const WalletBoth = [
   {
     id: 15,
     ProductCode: "LW-20",
-    img: "https://i.imgur.com/D7HISK5.jpg",
+    img: "https://i.ibb.co/S3V15PH/LW-20.webp",
     price: 900.0,
     description:
       "Multiple Card Holders key ring holder & many Pockets for Holding Money & Other Necessary Goods.",
@@ -126,8 +126,8 @@ export const WalletBoth = [
   },
   {
     id: 16,
-    ProductCode: "LW-20",
-    img: "https://i.imgur.com/Fk6m5lE.jpg",
+    ProductCode: "LW-21",
+    img: "https://i.ibb.co/Mn4CWyq/LW-21.webp",
     price: 900.0,
     description:
       "Multiple Card Holders key ring holder & many Pockets for Holding Money & Other Necessary Goods.",
