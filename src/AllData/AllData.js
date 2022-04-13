@@ -1,13 +1,13 @@
-// // this is shoes
+// this is shoes
 export const shoesData = [
   // women shoes
   {
     id: 1,
-    ProductCode: "BLS-106",
+    ProductCode: "BLS-107",
     category: "shoe",
     subCategory: "ladiesShoe",
     price: 1350.0,
-    img: "https://i.imgur.com/InZVOwY.jpg",
+    img: "https://i.ibb.co/Zmcbcm8/BLS-107.webp",
     description:
       "Exclusive Ladies Sandal Shoe | Artificial Leather | High Quality Product",
     color: "Ash (Glossy)",
@@ -19,7 +19,7 @@ export const shoesData = [
     category: "bag",
     subCategory: "officeBag",
     price: 1500.0,
-    img: "https://i.imgur.com/mL91DP4.jpg",
+    img: "https://i.ibb.co/ZV8R2Zr/CSS-103.webp",
     description:
       "Exclusive Ladies Sandal Shoe | Artificial Leather | High Quality Product",
     color: "Light Pink (Glossy)",
@@ -32,7 +32,7 @@ export const shoesData = [
     category: "bag",
     subCategory: "officeBag",
     price: 1950.0,
-    img: "https://i.imgur.com/UUUQC5w.jpgg",
+    img: "https://i.ibb.co/WgGJ5ws/JSB-403.webp",
     description:
       "Exclusive Leather Gent's Shoes | 100% Leather | Very High Quality",
     color: "Brown",
@@ -44,7 +44,7 @@ export const shoesData = [
     category: "bag",
     subCategory: "officeBag",
     price: 800.0,
-    img: "https://i.imgur.com/okK4MZK.jpg",
+    img: "https://i.ibb.co/HGzyhBk/JSB-401.webp",
     description:
       "Exclusive Leather Gent's Sandal | 100% Leather | Very High Quality",
     color: "Black",
@@ -60,8 +60,8 @@ export const bagsData = [
     ProductCode: "FSB-002",
     category: "bag",
     subCategory: "officeBag",
-    price: 2050.0,
-    img: "https://i.imgur.com/20FMklB.jpg",
+    price: 1000.0,
+    img: "https://i.ibb.co/TP9PN3h/FSB-002.webp",
     description:
       "Exclusive Multipurpose Backpack | 100% Leather  | Very High Quality",
     color: "Medium Dark Brown",
@@ -73,7 +73,7 @@ export const bagsData = [
     category: "bag",
     subCategory: "officeBag",
     price: 1800.0,
-    img: "https://i.imgur.com/iaUBHng.jpg",
+    img: "https://i.ibb.co/HXKSQD1/LCB-0002-J.webp",
     description:
       "Exclusive Ladies Hand Bag | 100% Leather & Cotton Fabrics | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
     color: "Brown Designer Leather with Black Color Leather",
@@ -83,7 +83,7 @@ export const bagsData = [
   {
     id: 3,
     ProductCode: "CAN-01",
-    img: "https://i.imgur.com/3QlZXFc.jpg",
+    img: "https://i.ibb.co/DCVgB3R/CAN-01.webp",
     price: 1950.0,
     description:
       "Exclusive Multipurpose Office CANVAS Backpack with | 100% Leather",
@@ -95,7 +95,7 @@ export const bagsData = [
     ProductCode: "LPS-003",
     category: "bag",
     price: 2500.0,
-    img: "https://i.imgur.com/oXxCcXN.jpg",
+    img: "https://i.ibb.co/yV0vQms/LPS-001.webp",
     description:
       "Exclusive Multipurpose BackPack and laptop cover | 100% Leather | Very High Quality",
     color: "Black",
@@ -108,10 +108,10 @@ export const beltsData = [
   // women Belt
   {
     id: 1,
-    ProductCode: "ELBJ-7005",
+    ProductCode: "ELBJ-7008",
     category: "bag",
     price: 700.0,
-    img: "https://i.imgur.com/95kyWCo.jpg",
+    img: "https://i.ibb.co/NpwGVj1/ELBJ-7008.webp",
     description: "Exclusive Ladies Leather Belt | Very High Quality",
     color: "Yellow Leather",
   },
@@ -120,7 +120,7 @@ export const beltsData = [
     ProductCode: "ELBJ-7007",
     category: "bag",
     price: 700.0,
-    img: "https://i.imgur.com/0e1bY3N.jpg",
+    img: "https://i.ibb.co/j6hg3tY/ELBJ-7007.webp",
     description: "Exclusive Ladies Leather Belt | Very High Quality",
     color: "Green Leather",
   },
@@ -130,7 +130,7 @@ export const beltsData = [
     ProductCode: "BMB-1112",
     category: "men belt",
     price: 650.0,
-    img: "https://i.imgur.com/CpchYBg.png",
+    img: "https://i.ibb.co/Tq799V0/BMB-1112.webp",
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Black Leather",
   },
@@ -139,43 +139,9 @@ export const beltsData = [
     ProductCode: "BCSB-601",
     category: "men belt",
     price: 700.0,
-    img: "https://i.imgur.com/KJ4gBte.png",
+    img: "https://i.ibb.co/pbK0NwS/BCSB-601.webp",
     description: "Exclusive Gent's Leather Belt | Very High Quality",
     color: "Dark Brown & Light Brown Leather",
-  },
-];
-
-// this is another bag(office, laptop)
-export const anotherBagsData = [
-  // office Bag
-  {
-    id: 1,
-    ProductCode: "7001",
-    category: "bag",
-    price: 2700,
-    img: "https://i.imgur.com/baKnYHC.jpg",
-  },
-  {
-    id: 1,
-    ProductCode: "7001",
-    category: "bag",
-    price: 2700,
-    img: "https://i.imgur.com/0iCj7UJ.jpg",
-  },
-  // Laptop bag
-  {
-    id: 3,
-    ProductCode: "7001",
-    category: "bag",
-    price: 2700,
-    img: "https://i.imgur.com/0BEFqXM.jpg",
-  },
-  {
-    id: 4,
-    ProductCode: "7001",
-    category: "bag",
-    price: 2700,
-    img: "https://i.imgur.com/EccmH3A.jpg",
   },
 ];
 
@@ -187,7 +153,7 @@ export const accessoriesData = [
     ProductCode: "MP-001",
     category: "mouse pad",
     price: 250,
-    img: "https://i.imgur.com/vMtSajo.png",
+    img: "https://i.ibb.co/v4B0XKb/MP-001.webp",
     description:
       "Made of microfiber leather, soft and smooth enough to bring comfort to you when using this desk pad. Surface of the mouse pad is waterproof to protect from water, drinks, oil stains or other accidents.",
     color: "Black",
@@ -198,7 +164,7 @@ export const accessoriesData = [
     ProductCode: "MP-002",
     category: "mouse pad",
     price: 150,
-    img: "https://i.imgur.com/vMtSajo.png",
+    img: "https://i.ibb.co/v4B0XKb/MP-001.webp",
     description:
       "Made of Artificial leather, soft and smooth enough to bring comfort to you when using this desk pad. Surface of the mouse pad is waterproof to protect from water, drinks, oil stains or other accidents.",
     color: "Black",
@@ -210,7 +176,7 @@ export const accessoriesData = [
     ProductCode: "MP-003",
     category: "mouse pad",
     price: 100,
-    img: "https://i.imgur.com/TK0LPNp.jpg",
+    img: "https://i.ibb.co/fvFGg3W/MP-003.webp",
     description: "Various Kinds of Mouse | handcrafted",
     color: "various",
   },
@@ -219,7 +185,7 @@ export const accessoriesData = [
     ProductCode: "MP-004",
     category: "mouse pad",
     price: 100,
-    img: "https://i.imgur.com/gyZ9drf.jpg",
+    img: "https://i.ibb.co/C0xx9Lm/MP-004.webp",
     description: "Various Kinds of Mouse | handcrafted ",
     color: "various",
   },
@@ -233,7 +199,7 @@ export const walletsData = [
     ProductCode: "LW-903",
     category: "bag",
     price: 825.0,
-    img: "https://i.imgur.com/shAbmEC.jpg",
+    img: "https://i.ibb.co/DbqDWDP/LW-903.webp",
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Blue Leather",
   },
@@ -242,17 +208,17 @@ export const walletsData = [
     ProductCode: "LGW-102",
     category: "bag",
     price: 550.0,
-    img: "https://i.imgur.com/ulP068T.jpg",
+    img: "https://i.ibb.co/xq7V58Z/LGW-102.webp",
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown & Black Crocodile Printed Leather",
   },
   // men Wallet
   {
     id: 3,
-    ProductCode: "LW-901",
+    ProductCode: "SW-802",
     category: "bag",
-    price: 750.0,
-    img: "https://i.imgur.com/GFOimBN.jpg",
+    price: 700.0,
+    img: "https://i.ibb.co/pdq6qcm/SW-802.webp",
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Black Leather",
   },
@@ -261,7 +227,7 @@ export const walletsData = [
     ProductCode: "LW-902",
     category: "bag",
     price: 750.0,
-    img: "https://i.imgur.com/jlN7oUH.jpg",
+    img: "https://i.ibb.co/LJY55Dr/LW-902.webp",
     description: "Exclusive Leather Wallet | Very High Quality",
     color: "Brown Leather",
   },

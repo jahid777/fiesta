@@ -197,7 +197,7 @@ const Bag = () => {
                   </p>
                 </div>
                 <div className="card-footer ProductModelNumber">
-                  <small>Model No : BSS-104</small>
+                  <small>{singleShoes?.ProductCode}</small>
                 </div>
               </div>
             </div>
