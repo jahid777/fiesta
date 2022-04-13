@@ -2,6 +2,10 @@ import React from "react";
 import { useState } from "react";
 import PopupModal from "../../Shared/PopupModal/PopupModal";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import logo from "../../../Image/logo/loading.gif";
+
 const GentsBag = () => {
   const [gents, setGents] = useState();
   return (
@@ -14,11 +18,11 @@ const GentsBag = () => {
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
-            <img
-              // style={{ height: "300px", width: "100%" }}
+            <LazyLoadImage
               src=""
               className="card-img-top img-fluid"
               alt="..."
+              placeholderSrc={logo}
             />
             <div className="card-body">
               <h5 className="card-title">Card title</h5>

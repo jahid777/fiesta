@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { womenShoes } from "../../../AllData/ShoesData";
 import PopupModal from "../../Shared/PopupModal/PopupModal";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import logo from "../../../Image/logo/loading.gif";
+
 const WomenShoeCategories = () => {
   const [womensShoe, setWomenShoe] = useState(womenShoes);
   return (
@@ -16,10 +20,11 @@ const WomenShoeCategories = () => {
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              <img
+              <LazyLoadImage
                 src={singleWomensShoe?.img}
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
+                placeholderSrc={logo}
               />
               <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleWomensShoe?.price}</h5>

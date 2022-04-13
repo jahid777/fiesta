@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { WalletBoth } from "../../../AllData/Wallet";
 import PopupModal from "../../Shared/PopupModal/PopupModal";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import logo from "../../../Image/logo/loading.gif";
+
 const WalletCategories = () => {
   const [Wallets, setWallets] = useState(WalletBoth);
   return (
@@ -15,11 +19,12 @@ const WalletCategories = () => {
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              <img
+              <LazyLoadImage
                 style={{ height: "250px" }}
                 src={singleWallet?.img}
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
+                placeholderSrc={logo}
               />
               <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleWallet?.price}</h5>

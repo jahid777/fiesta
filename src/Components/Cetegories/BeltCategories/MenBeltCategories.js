@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { menBelt } from "../../../AllData/BeltData";
 import MenPopModal from "../../Shared/PopupModal/MenPopModal";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import logo from "../../../Image/logo/loading.gif";
+
 const MenBeltCategories = () => {
   const [mensBelt, setMensbelt] = useState(menBelt);
   return (
@@ -15,10 +19,11 @@ const MenBeltCategories = () => {
               data-bs-toggle="modal"
               data-bs-target="#menModal"
             >
-              <img
+              <LazyLoadImage
                 src={singleMensBelt.img}
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
+                placeholderSrc={logo}
               />
               <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleMensBelt.price}</h5>

@@ -9,6 +9,9 @@ import "aos/dist/aos.css";
 import "./HomeComp.css";
 import PopupModal from "../../Shared/PopupModal/PopupModal";
 import { accessoriesData } from "./../../../AllData/AllData";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import logo from "../../../Image/logo/loading.gif";
 
 const Bag = () => {
   const [shoes, setShoes] = useState(shoesData);
@@ -46,11 +49,11 @@ const Bag = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
-                <img
+                <LazyLoadImage
                   src={singleBag?.img}
                   className="card-img-top img-fluid homeProductImage"
                   alt="..."
-                  data-aos="fade-up"
+                  placeholderSrc={logo}
                 />
                 <div className="card-body homeProductDes">
                   <h5 className="card-title ProductPrice">
@@ -93,11 +96,11 @@ const Bag = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
-                <img
+                <LazyLoadImage
                   src={singleBelt?.img}
                   className="card-img-top img-fluid homeProductImage"
                   alt="..."
-                  data-aos="fade-up"
+                  placeholderSrc={logo}
                 />
                 <div className="card-body homeProductDes">
                   <h5 className="card-title"> Tk. {singleBelt?.price}</h5>
@@ -133,11 +136,11 @@ const Bag = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
-                <img
+                <LazyLoadImage
                   className="card-img-top img-fluid homeProductImage"
                   src={singleWallet?.img}
                   alt="..."
-                  data-aos="fade-up"
+                  placeholderSrc={logo}
                 />
                 <div className="card-body homeProductDes">
                   <h5 className="card-title">Tk. {singleWallet?.price}</h5>
@@ -175,11 +178,11 @@ const Bag = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
-                <img
+                <LazyLoadImage
                   src={singleShoes?.img}
                   className="card-img-top img-fluid homeProductImage"
                   alt="..."
-                  data-aos="fade-up"
+                  placeholderSrc={logo}
                 />
                 <div className="card-body homeProductDes">
                   <h5 className="card-title ProductPrice">
@@ -222,11 +225,11 @@ const Bag = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
-                <img
+                <LazyLoadImage
                   src={singleAccessories?.img}
                   className="card-img-top img-fluid homeProductImage"
                   alt="..."
-                  data-aos="fade-up"
+                  placeholderSrc={logo}
                 />
                 <div className="card-body homeProductDes">
                   <h5 className="card-title">Tk. {singleAccessories?.price}</h5>

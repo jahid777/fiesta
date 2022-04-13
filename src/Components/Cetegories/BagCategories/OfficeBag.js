@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { officeBag } from "../../../AllData/BagData";
 import OfficeBagPopup from "../../Shared/PopupModal/OfficeBagPopup";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import logo from "../../../Image/logo/loading.gif";
+
 const OfficeBag = () => {
   const [officeBags, setOffice] = useState(officeBag);
   return (
@@ -15,10 +19,11 @@ const OfficeBag = () => {
               data-bs-toggle="modal"
               data-bs-target="#officeModal"
             >
-              <img
+              <LazyLoadImage
                 src={singleOfficeBag.img}
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
+                placeholderSrc={logo}
               />
               <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleOfficeBag.price}</h5>

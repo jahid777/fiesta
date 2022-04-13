@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { mousepadData } from "../../../AllData/AccessoriesData";
 import PopupModal from "../../Shared/PopupModal/PopupModal";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import logo from "../../../Image/logo/loading.gif";
 
 const MousepadCategories = () => {
   const [mousepads, setMousepads] = useState(mousepadData);
@@ -15,11 +18,12 @@ const MousepadCategories = () => {
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              <img
+              <LazyLoadImage
                 style={{ height: "250px", width: "auto" }}
                 src={singleMousepad?.img}
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
+                placeholderSrc={logo}
               />
               <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleMousepad.price}</h5>

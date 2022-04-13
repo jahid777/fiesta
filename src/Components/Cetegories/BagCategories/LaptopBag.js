@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import { laptopBag } from "../../../AllData/BagData";
 import LaptopBagPopup from "../../Shared/PopupModal/LaptopBagPopup";
 
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import logo from "../../../Image/logo/loading.gif";
+
 const LaptopBag = () => {
   const [laptopBags, setLaptopBag] = useState(laptopBag);
   return (
@@ -15,10 +19,11 @@ const LaptopBag = () => {
               data-bs-toggle="modal"
               data-bs-target="#laptopBagModal"
             >
-              <img
+              <LazyLoadImage
                 src={singleLaptopBag.img}
                 className="card-img-top img-fluid homeProductImage"
                 alt="..."
+                placeholderSrc={logo}
               />
               <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleLaptopBag.price}</h5>
