@@ -326,8 +326,8 @@ export const womenBag = [
 export const gymBag = [
   {
     id: 1,
-    ProductCode: "BGG-8002",
-    img: "https://i.imgur.com/PHEzxem.jpg",
+    ProductCode: "BGG-8001",
+    img: "https://i.ibb.co/SBsmy5R/BGG-8001.webp",
     price: 1600.0,
     description:
       "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
@@ -338,7 +338,7 @@ export const gymBag = [
   {
     id: 2,
     ProductCode: "BGG-8002",
-    img: "https://i.imgur.com/yW9YJXT.jpg",
+    img: "https://i.ibb.co/59q8MgZ/BGG-8002.webp",
     price: 1600.0,
     description:
       "Exclusive Multipurpose Travel or Gym Bag | 100% Leather with High Quality Synthetic Fabrics | Very High Quality",
@@ -352,7 +352,7 @@ export const officeBag = [
   {
     id: 1,
     ProductCode: "BLB-605",
-    img: "https://i.imgur.com/0AzaB21.jpg",
+    img: "https://i.ibb.co/xS49PKR/BLB-605.webp",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -362,7 +362,7 @@ export const officeBag = [
   {
     id: 2,
     ProductCode: "BLB-607",
-    img: "https://i.imgur.com/sjGoROT.jpg",
+    img: "https://i.ibb.co/Tg5qvn9/BLB-607.webp",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -372,7 +372,7 @@ export const officeBag = [
   {
     id: 3,
     ProductCode: "CRB-01",
-    img: "https://i.imgur.com/8cNaep1.jpg",
+    img: "https://i.ibb.co/GcFcJPp/CRB-01.webp",
     price: 1200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -382,7 +382,7 @@ export const officeBag = [
   {
     id: 4,
     ProductCode: "BLB-606",
-    img: "https://i.imgur.com/S033CyB.jpg",
+    img: "https://i.ibb.co/pZtW4gJ/BLB-606.webp",
     price: 5200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -392,7 +392,7 @@ export const officeBag = [
   {
     id: 5,
     ProductCode: "LPB-001",
-    img: "https://i.imgur.com/T3DZc3y.png",
+    img: "https://i.ibb.co/DGHJbwy/LPB-001.webp",
     price: 2050.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -401,8 +401,8 @@ export const officeBag = [
   },
   {
     id: 6,
-    ProductCode: "LPB-001",
-    img: "https://i.imgur.com/GQZtKjq.png",
+    ProductCode: "LPB-002",
+    img: "https://i.ibb.co/vD9v1b7/LPB-002.webp",
     price: 2050.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -411,8 +411,8 @@ export const officeBag = [
   },
   {
     id: 7,
-    ProductCode: "CRB-01",
-    img: "https://i.imgur.com/YYEeASm.jpg",
+    ProductCode: "CRB-02",
+    img: "https://i.ibb.co/9bYxY7M/CRB-02.webp",
     price: 1200.0,
     description:
       "2 Part Multipurpose Bag | 100% Leather | In this pocket you can carry Mobile, Notepad & other essential goods.",
@@ -422,7 +422,7 @@ export const officeBag = [
   {
     id: 8,
     ProductCode: "LPB-0010",
-    img: "https://i.imgur.com/Bc48dIP.png",
+    img: "https://i.ibb.co/ydB9g8M/LPB-0010.webp",
     price: 2700.0,
     description:
       "1 Part Multipurpose Backpack | 100% Leather | In this pocket you can carry Mobile, Notepad & other essential goods.",
@@ -432,7 +432,7 @@ export const officeBag = [
   {
     id: 9,
     ProductCode: "CAN-01",
-    img: "https://i.imgur.com/3QlZXFc.jpg",
+    img: "https://i.ibb.co/DCVgB3R/CAN-01.webp",
     price: 1950.0,
     description: "Exclusive Multipurpose Office CANVAS Backpack | 100% Leather",
     color: "Black Canvas & Leather",
@@ -441,7 +441,7 @@ export const officeBag = [
   {
     id: 10,
     ProductCode: "LPS-001",
-    img: "https://i.imgur.com/oXxCcXN.jpg",
+    img: "https://i.ibb.co/yV0vQms/LPS-001.webp",
     price: 1500.0,
     description:
       "Exclusive Multipurpose Office MiNi Backpack | 100% Leather | In this pocket you can carry Mobile, Notepad & makeup notebook and other essential goods",
@@ -457,7 +457,7 @@ export const laptopBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700.0,
-    img: "https://i.imgur.com/tqdTRIv.jpg",
+    img: "https://i.ibb.co/mTL5MrW/BGB-6003.webp",
     description:
       "Exclusive Laptop Bag | 100% Leather & Cotton Fabrics | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
     color: "Red Wine with Blue Leather",
@@ -469,7 +469,7 @@ export const laptopBag = [
     category: "bag",
     subCategory: "officeBag",
     price: 2700.0,
-    img: "https://i.imgur.com/f50G9LK.jpg",
+    img: "https://i.ibb.co/Prw4kg4/BGB-6002.webp",
     description:
       "Exclusive Ladies Laptop Bag | 100% Leather | Very High Quality | Small Handle : 13' Round | Outer Chain : 8'5 ",
     color: "Black Color Leather",
@@ -478,7 +478,7 @@ export const laptopBag = [
   {
     id: 3,
     ProductCode: "BLB-605",
-    img: "https://i.imgur.com/0AzaB21.jpg",
+    img: "https://i.ibb.co/xS49PKR/BLB-605.webp",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -488,7 +488,7 @@ export const laptopBag = [
   {
     id: 4,
     ProductCode: "BLB-607",
-    img: "https://i.imgur.com/sjGoROT.jpg",
+    img: "https://i.ibb.co/Tg5qvn9/BLB-607.webp",
     price: 5500.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -498,7 +498,7 @@ export const laptopBag = [
   {
     id: 5,
     ProductCode: "CRB-01",
-    img: "https://i.imgur.com/8cNaep1.jpg",
+    img: "https://i.ibb.co/GcFcJPp/CRB-01.webp",
     price: 1200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -508,7 +508,7 @@ export const laptopBag = [
   {
     id: 6,
     ProductCode: "BLB-606",
-    img: "https://i.imgur.com/S033CyB.jpg",
+    img: "https://i.ibb.co/pZtW4gJ/BLB-606.webp",
     price: 5200.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -518,7 +518,7 @@ export const laptopBag = [
   {
     id: 7,
     ProductCode: "LPB-001",
-    img: "https://i.imgur.com/T3DZc3y.png",
+    img: "https://i.ibb.co/DGHJbwy/LPB-001.webp",
     price: 2050.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -527,8 +527,8 @@ export const laptopBag = [
   },
   {
     id: 8,
-    ProductCode: "LPB-001",
-    img: "https://i.imgur.com/GQZtKjq.png",
+    ProductCode: "LPB-002",
+    img: "https://i.ibb.co/vD9v1b7/LPB-002.webp",
     price: 2050.0,
     description:
       "Exclusive Multipurpose Office cum Laptop Bag | 100% Leather | Very High Quality",
@@ -540,7 +540,7 @@ export const laptopBag = [
     ProductCode: "LPS-003",
     category: "bag",
     price: 2500.0,
-    img: "https://i.imgur.com/oXxCcXN.jpg",
+    img: "https://i.ibb.co/yV0vQms/LPS-001.webp",
     description:
       "Exclusive Multipurpose BackPack and laptop cover | 100% Leather | Very High Quality",
     color: "Black",
@@ -551,7 +551,7 @@ export const laptopBag = [
     ProductCode: "LPS-002",
     category: "bag",
     price: 2200.0,
-    img: "https://i.imgur.com/mY78vOJ.jpg",
+    img: "https://i.ibb.co/fXDLyzb/LPS-002.webp",
     description:
       "Exclusive Multipurpose BackPack and laptop cover | 100% Leather | Very High Quality",
     color: "Black",
