@@ -65,7 +65,7 @@ export const womenShoes = [
   {
     id: 9,
     ProductCode: "FS-113",
-    img: "https://i.ibb.co/fQNgwt3/FS-113.webp",
+    img: "https://i.ibb.co/3CSTmDx/FS-113.webp",
     price: 1000.0,
     description: "Exclusive Ladies Sandal Shoe | Artificial Leather",
     color: "Light Pink (Glossy)",
@@ -74,7 +74,7 @@ export const womenShoes = [
   {
     id: 10,
     ProductCode: "FS-112",
-    img: "https://i.ibb.co/Ss0sLZx/FS-112.webp",
+    img: "https://i.ibb.co/d078VnN/FS-112.webp",
     price: 900.0,
     description: "Exclusive Ladies Sandal Shoe | Artificial Leather",
     color: "Light Ash(Glossy) & Black",
@@ -83,7 +83,7 @@ export const womenShoes = [
   {
     id: 11,
     ProductCode: "FS-111",
-    img: "https://i.ibb.co/6n9MdKH/FS-111.webp",
+    img: "https://i.ibb.co/M59XJ6r/FS-111.webp",
     price: 1000.0,
     description: "Exclusive Ladies Sandal Shoe | Artificial Leather",
     color: "Light Ash(Glossy)",

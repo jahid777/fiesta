@@ -11,7 +11,7 @@ export const womenBelt = [
   {
     id: 2,
     ProductCode: "ELBJ-7002",
-    img: "https://i.ibb.co/RygN3y3/ELBJ-7002.webp",
+    img: "https://i.ibb.co/vhNmnfq/ELBJ-7002.webp",
     price: 600.0,
     description: "Exclusive Ladies Leather Belt | Very High Quality",
     color: "Black Leather",
@@ -51,7 +51,7 @@ export const womenBelt = [
   {
     id: 7,
     ProductCode: "LBJ-703",
-    img: "https://i.ibb.co/GtRGMh9/LBJ-703.webp",
+    img: "https://i.ibb.co/7C25SDv/LBJ-703.webp",
     price: 600.0,
     description: "Exclusive Ladies Leather Belt | Very High Quality",
     color: "Black Leather",
@@ -67,7 +67,7 @@ export const womenBelt = [
   {
     id: 9,
     ProductCode: "LBJ-704",
-    img: "https://i.ibb.co/WyhFpyB/LBJ-704.webp",
+    img: "https://i.ibb.co/y5WL9gj/LBJ-704.webp",
     price: 525.0,
     description: "Exclusive Ladies Leather Belt | Very High Quality",
     color: "Green Leather",
