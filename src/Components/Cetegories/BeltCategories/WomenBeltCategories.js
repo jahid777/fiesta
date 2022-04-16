@@ -5,6 +5,7 @@ import PopupModal from "../../Shared/PopupModal/PopupModal";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import logo from "../../../Image/logo/loading.gif";
+import "../../Home/HomeComp/HomeComp.css";
 
 const WomenBeltCategories = () => {
   const [womensBelt, setWomensbelt] = useState(womenBelt);
@@ -25,6 +26,7 @@ const WomenBeltCategories = () => {
                 alt="..."
                 placeholderSrc={logo}
               />
+
               <div className="card-body homeProductDes">
                 <h5 className="card-title">Tk. {singleWomensBelt.price}</h5>
                 <p className="card-text">

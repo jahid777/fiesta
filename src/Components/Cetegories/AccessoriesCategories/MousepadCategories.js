@@ -14,7 +14,7 @@ const MousepadCategories = () => {
         {mousepads.map((singleMousepad) => (
           <div key={singleMousepad.id} className="col">
             <div
-              className="card h-100"
+              className="card h-100 cardBody"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
