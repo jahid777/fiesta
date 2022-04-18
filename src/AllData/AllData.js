@@ -177,7 +177,7 @@ export const accessoriesData = [
     category: "mouse pad",
     price: 100,
     img: "https://i.ibb.co/fvFGg3W/MP-003.webp",
-    description: "Various Kinds of Mouse | handcrafted",
+    description: "Various Kinds of Mouse Pad | handcrafted",
     color: "various",
   },
   {
@@ -186,7 +186,7 @@ export const accessoriesData = [
     category: "mouse pad",
     price: 100,
     img: "https://i.ibb.co/C0xx9Lm/MP-004.webp",
-    description: "Various Kinds of Mouse | handcrafted ",
+    description: "Various Kinds of Mouse Pad | handcrafted ",
     color: "various",
   },
 ];

@@ -46,16 +46,17 @@ const ContactUs = () => {
           <p>
             <i className="bi bi-geo-alt-fill"></i>
             <span className="contact-text">
-              New Elephant Rd, Dhaka 1205, Bangladesh (Bangladesh Office)
+              238, Dewan Mansion, New Elephant Rd, Dhaka 1205, Bangladesh
+              (Bangladesh Office)
             </span>
           </p>
 
           <div className="justify-content-center emailPhone">
             <p>
-              <i className="bi bi-envelope-fill"></i> admin@fiestalifestyle.com
+              <i className="bi bi-envelope-fill"></i> fiesta@uniconbd.com
             </p>
             <p>
-              <i className="bi bi-telephone-fill"></i> +8801841477361
+              <i className="bi bi-telephone-fill"></i> +8801733696961
             </p>
           </div>
           <hr className="ContactHr"></hr>
